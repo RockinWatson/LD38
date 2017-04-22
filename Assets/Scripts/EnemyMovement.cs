@@ -21,6 +21,7 @@ public class EnemyMovement : MonoBehaviour {
 	}
 	
 	void Update () {
+        //ROTATION STUFF
         //Vector3 dir = target.position - myTransform.position;
         //dir.z = 0.0f;
 
