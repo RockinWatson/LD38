@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour {
 	private const KeyCode KEY_MOVE_DOWN = KeyCode.S;
 	private const KeyCode KEY_MOVE_RIGHT = KeyCode.D;
 
-	private const float ACCELERATION_SCALE = 0.05f;
+	private const float ACCELERATION_SCALE = 1.5f;
 
 	private Vector3 _acceleration = Vector2.zero;
 	private Vector3 _velocity = Vector2.zero;
@@ -50,6 +50,6 @@ public class PlayerMovement : MonoBehaviour {
 	}
 
 	private Vector3 GetAccelerationScaled(Vector3 acceleration) {
-		return (acceleration * ACCELERATION_SCALE);
+		return (acceleration * ACCELERATION_SCALE * Time.deltaTime);
 	}
 }
