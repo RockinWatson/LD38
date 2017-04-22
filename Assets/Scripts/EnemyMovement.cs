@@ -11,6 +11,8 @@ public class EnemyMovement : MonoBehaviour {
 
     private bool isColliding;
     private Transform myTransform;
+    private Vector3 left = new Vector3(-1,1,1);
+    private Vector3 right = new Vector3(1, 1, 1);
 
     void Awake()
     {
@@ -18,6 +20,7 @@ public class EnemyMovement : MonoBehaviour {
     }
 
     void Start () {
+        //sp = GetComponent<SpriteRenderer>();
         GameObject homeBase = GameObject.FindGameObjectWithTag(Constants.Tags.HomeBase);
         target = homeBase.transform;
 	}
@@ -32,6 +35,15 @@ public class EnemyMovement : MonoBehaviour {
         {
             //Movin to the target
             myTransform.position += (target.position - myTransform.position).normalized * moveSpeed * Time.deltaTime;
+        }
+
+        if (myTransform.position.x > 0)
+        {
+            myTransform.localScale = left;
+        }
+        else
+        {
+            myTransform.localScale = right;
         }
     }
 
