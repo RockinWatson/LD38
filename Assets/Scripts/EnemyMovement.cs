@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour {
 
+    public SpriteRenderer sp;
+
     public Transform target;
     public int moveSpeed;
     public int rotationSpeed;
@@ -21,14 +23,6 @@ public class EnemyMovement : MonoBehaviour {
 	}
 	
 	void Update () {
-        //ROTATION STUFF
-        //Vector3 dir = target.position - myTransform.position;
-        //dir.z = 0.0f;
-
-        //if (dir != Vector3.zero)
-        //{
-        //    myTransform.rotation = Quaternion.Slerp(myTransform.rotation, Quaternion.FromToRotation(Vector3.right, dir),rotationSpeed * Time.deltaTime);
-        //}
 
         if (isColliding)
         {
@@ -45,7 +39,6 @@ public class EnemyMovement : MonoBehaviour {
     {
         if (collision.name == Constants.Tags.HomeBase)
         {
-            Debug.Log("Is triggered");
             isColliding = true;
         }
         else

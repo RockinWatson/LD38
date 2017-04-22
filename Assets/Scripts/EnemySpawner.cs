@@ -37,7 +37,7 @@ namespace Assets.Scripts
             Vector2 pos = new Vector2(Random.Range(xMin,xMax), Random.Range(yMin,yMax));
             GameObject enemyPrefab = enemies[Random.Range(0,enemies.Length)];
 
-            //Instantiate(enemyPrefab, pos);
+            Instantiate(enemyPrefab, pos, transform.rotation);
         }
     }
 }
