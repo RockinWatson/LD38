@@ -34,7 +34,11 @@ public class PlayerAbilities : MonoBehaviour {
 	}
 
 	private void SpawnBuddies() {
-		//@TODO: Spawn / Instantiate prefabs of your buddies here...
-		Debug.Log("SPAWNING BUDDIES..!");
+		SpawnWalker();
+	}
+
+	private void SpawnWalker() {
+		GameObject walker = (GameObject)Instantiate(Resources.Load("MushmanWalker"));
+		walker.transform.position = _player.transform.position;
 	}
 }
