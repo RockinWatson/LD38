@@ -5,7 +5,7 @@ using UnityEngine;
 public class HomeBase : MonoBehaviour {
 
 	const float MAX_RESOURCE = 100.0f;
-	
+
 	private float _resource = MAX_RESOURCE;
 
 	public bool HasEnoughResource(float amount) {
@@ -14,6 +14,10 @@ public class HomeBase : MonoBehaviour {
 
 	public void AddResource(float amount) {
 		_resource += amount;
+	}
+
+	public void UseResource(float amount) {
+		_resource -= amount;
 	}
 
 	public void Damage(float amount) {

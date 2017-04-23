@@ -44,23 +44,27 @@ public class PlayerAbilities : MonoBehaviour {
 	}
 
 	private void UpdatePlayerAbilities() {
-		if(Input.GetKeyDown(KEY_SPAWN_BUDDIES)) {
-			if(CanSpawnBuddies()) {
-				SpawnBuddies();
-			}
-		}
+		bool selectionMade = false;
 
 		if(Input.GetKeyDown(KEY_SELECT_BLOCKER)) {
 			_selectedMushmenType = MushmenType.BLOCKER;
+			selectionMade = true;
 		}
 		if(Input.GetKeyDown(KEY_SELECT_WALKER)) {
 			_selectedMushmenType = MushmenType.WALKER;
+			selectionMade = true;
 		}
 		if(Input.GetKeyDown(KEY_SELECT_BOMB)) {
 			_selectedMushmenType = MushmenType.BOMB;
+			selectionMade = true;
 		}
 		if(Input.GetKeyDown(KEY_SELECT_ROCKET)) {
 			_selectedMushmenType = MushmenType.ROCKET;
+			selectionMade = true;
+		}
+
+		if(selectionMade || Input.GetKeyDown(KEY_SPAWN_BUDDIES)) {
+			TrySpawn(_selectedMushmenType);
 		}
 	}
 
@@ -80,15 +84,21 @@ public class PlayerAbilities : MonoBehaviour {
 		}
 	}
 
-	private bool CanSpawnBuddies() {
-		float cost = GetMushmenCost(_selectedMushmenType);
+	private void TrySpawn(MushmenType type) {
+		if(CanSpawn(type)) {
+			Spawn(type);
+		}
+	}
+
+	private bool CanSpawn(MushmenType type) {
+		float cost = GetMushmenCost(type);
 		return true;
 		//@TODO: Get this going once HomeBase is generating sheeeit.
 		//return _homeBase.HasEnoughResource(cost);
 	}
 
-	private void SpawnBuddies() {
-		switch(_selectedMushmenType) {
+	private void Spawn(MushmenType type) {
+		switch(type) {
 			case MushmenType.BLOCKER:
 			SpawnBlocker();
 			return;
@@ -107,20 +117,28 @@ public class PlayerAbilities : MonoBehaviour {
 	private void SpawnBlocker() {
 		GameObject walker = (GameObject)Instantiate(Resources.Load("Mushmen/MushmanBlocker"));
 		walker.transform.position = _player.transform.position;
+
+		_homeBase.UseResource(BLOCKER_COST);
 	}
 
 	private void SpawnWalker() {
 		GameObject walker = (GameObject)Instantiate(Resources.Load("Mushmen/MushmanWalker"));
 		walker.transform.position = _player.transform.position;
+
+		_homeBase.UseResource(WALKER_COST);
 	}
 
 	private void SpawnBomb() {
 		GameObject walker = (GameObject)Instantiate(Resources.Load("Mushmen/MushmanBomb"));
 		walker.transform.position = _player.transform.position;
+
+		_homeBase.UseResource(BOMB_COST);
 	}
 
 	private void SpawnRocket() {
 		GameObject walker = (GameObject)Instantiate(Resources.Load("Mushmen/MushmanRocket"));
 		walker.transform.position = _player.transform.position;
+
+		_homeBase.UseResource(ROCKET_COST);
 	}
 }
