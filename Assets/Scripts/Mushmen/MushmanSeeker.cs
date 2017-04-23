@@ -51,6 +51,13 @@ abstract public class MushmanSeeker : MushmanBase {
 		}
 	}
 
+	void OnCollisionEnter2D(Collision2D other) {
+		if(other.gameObject.tag == "Enemy") {
+			Enemy enemy = other.gameObject.GetComponent<Enemy>();
+			enemy.Damage(GetDamage());
+		}
+	}
+
 	private void DebugDrawTarget(GameObject go) {
 		Debug.DrawRay(go.transform.position, Vector3.up, Color.red);
 		Debug.DrawRay(go.transform.position, Vector3.left, Color.green);

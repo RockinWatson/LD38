@@ -2,18 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-abstract public class MushmanBase : MonoBehaviour {
+public class Enemy : MonoBehaviour {
 
 	[SerializeField]
-	private float _health = 50.0f;
+	private float _health = 50;
 
-	[SerializeField]
-	private float _damage = 10.0f;
+	// Use this for initialization
+	void Start () {
+	}
 
-	protected float GetDamage() { return _damage; }
-
-	private void OnBecameInvisible() {
-		Destroy(this.gameObject);
+	// Update is called once per frame
+	void Update () {
 	}
 
 	public void Damage(float amount) {
