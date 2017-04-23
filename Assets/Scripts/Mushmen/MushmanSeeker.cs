@@ -5,7 +5,10 @@ using UnityEngine;
 public class MushmanSeeker : MonoBehaviour {
 
 	[SerializeField]
-	private float SPEED = 1.0f;
+	private float _speed = 1.0f;
+
+	[SerializeField]
+	private float _speedRamp = 0.0f;
 
 	private GameObject _target = null;
 
@@ -19,6 +22,8 @@ public class MushmanSeeker : MonoBehaviour {
 
 	// Update is called once per frame
 	private void Update () {
+		_speed += (_speedRamp * Time.deltaTime);
+
 		MoveToTarget();
 	}
 
@@ -48,7 +53,7 @@ public class MushmanSeeker : MonoBehaviour {
 
 			Vector3 dirToTarget = (_target.transform.position - this.transform.position).normalized;
 			//Debug.DrawRay(this.transform.position, dirToTarget, Color.magenta);
-			this.transform.position += (dirToTarget * Time.deltaTime * SPEED);
+			this.transform.position += (dirToTarget * Time.deltaTime * _speed);
 		}
 	}
 

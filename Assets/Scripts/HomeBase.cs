@@ -46,6 +46,7 @@ public class HomeBase : MonoBehaviour {
 
 	private void Die() {
 		//@TODO: Die Mofucka.
+		GameObject.Destroy(this.gameObject);
 	}
 
 	private void OnGUI() {
