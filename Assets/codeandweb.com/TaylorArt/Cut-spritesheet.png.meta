@@ -1,0 +1,1364 @@
+fileFormatVersion: 2
+guid: a40f0378830d6f040b869ffa997bf8af
+timeCreated: 1492981674
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: eyebrow-eyebrow_000
+    21300002: eyebrow-eyebrow_001
+    21300004: eyebrow-eyebrow_002
+    21300006: eyebrow-eyebrow_003
+    21300008: eyebrow-eyebrow_004
+    21300010: eyebrow-eyebrow_005
+    21300012: eyebrow-eyebrow_006
+    21300014: eyebrow-eyebrow_007
+    21300016: eyebrow-eyebrow_008
+    21300018: eyebrow-eyebrow_009
+    21300020: eyebrow-eyebrow_010
+    21300022: eyebrow-eyebrow_011
+    21300024: eyebrow-eyebrow_012
+    21300026: eyebrow-eyebrow_013
+    21300028: eyebrow-eyebrow_014
+    21300030: eyes-eyes_000
+    21300032: eyes-eyes_001
+    21300034: eyes-eyes_002
+    21300036: eyes-eyes_003
+    21300038: eyes-eyes_004
+    21300040: eyes-eyes_005
+    21300042: eyes-eyes_006
+    21300044: eyes-eyes_007
+    21300046: eyes-eyes_008
+    21300048: eyes-eyes_009
+    21300050: eyes-eyes_010
+    21300052: eyes-eyes_011
+    21300054: eyes-eyes_012
+    21300056: eyes-eyes_013
+    21300058: eyes-eyes_014
+    21300060: face
+    21300062: hairs-hairs_000
+    21300064: hairs-hairs_001
+    21300066: hairs-hairs_002
+    21300068: hairs-hairs_003
+    21300070: hairs-hairs_004
+    21300072: hairs-hairs_005
+    21300074: hairs-hairs_006
+    21300076: hairs-hairs_007
+    21300078: hairs-hairs_008
+    21300080: hairs-hairs_009
+    21300082: hairs-hairs_010
+    21300084: hairs-hairs_011
+    21300086: hairs-hairs_012
+    21300088: hairs-hairs_013
+    21300090: hairs-hairs_014
+    21300092: pizzaarm
+    21300094: stache-stache_000
+    21300096: stache-stache_001
+    21300098: stache-stache_002
+    21300100: stache-stache_003
+    21300102: stache-stache_004
+    21300104: stache-stache_005
+    21300106: stache-stache_006
+    21300108: stache-stache_007
+    21300110: stache-stache_008
+    21300112: stache-stache_009
+    21300114: stache-stache_010
+    21300116: stache-stache_011
+    21300118: stache-stache_012
+    21300120: stache-stache_013
+    21300122: stache-stache_014
+    21300124: teeth-botteeth_000
+    21300126: teeth-botteeth_001
+    21300128: teeth-botteeth_002
+    21300130: teeth-botteeth_003
+    21300132: teeth-botteeth_004
+    21300134: teeth-botteeth_005
+    21300136: teeth-botteeth_006
+    21300138: teeth-botteeth_007
+    21300140: teeth-botteeth_008
+    21300142: teeth-botteeth_009
+    21300144: teeth-botteeth_010
+    21300146: teeth-botteeth_011
+    21300148: teeth-botteeth_012
+    21300150: teeth-botteeth_013
+    21300152: teeth-botteeth_014
+    21300154: tongue-tongue_000
+    21300156: tongue-tongue_001
+    21300158: tongue-tongue_002
+    21300160: tongue-tongue_003
+    21300162: tongue-tongue_004
+    21300164: tongue-tongue_005
+    21300166: tongue-tongue_006
+    21300168: tongue-tongue_007
+    21300170: tongue-tongue_008
+    21300172: tongue-tongue_009
+    21300174: tongue-tongue_010
+    21300176: tongue-tongue_011
+    21300178: tongue-tongue_012
+    21300180: tongue-tongue_013
+    21300182: tongue-tongue_014
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: eyebrow-eyebrow_000
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1272
+        width: 516
+        height: 189
+      alignment: 9
+      pivot: {x: 0.503876, y: 0.50793654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrow-eyebrow_001
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1463
+        width: 519
+        height: 189
+      alignment: 9
+      pivot: {x: 0.5009634, y: 0.50793654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrow-eyebrow_002
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 1082
+        width: 515
+        height: 188
+      alignment: 9
+      pivot: {x: 0.49514562, y: 0.5106383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrow-eyebrow_003
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1273
+        width: 515
+        height: 188
+      alignment: 9
+      pivot: {x: 0.49514562, y: 0.5106383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrow-eyebrow_004
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 569
+        width: 508
+        height: 187
+      alignment: 9
+      pivot: {x: 0.5019685, y: 0.51336896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrow-eyebrow_005
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 893
+        width: 503
+        height: 187
+      alignment: 9
+      pivot: {x: 0.51689863, y: 0.51336896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrow-eyebrow_006
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 360
+        width: 502
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5179283, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrow-eyebrow_007
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 558
+        width: 498
+        height: 192
+      alignment: 9
+      pivot: {x: 0.52208835, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrow-eyebrow_008
+      rect:
+        serializedVersion: 2
+        x: 2190
+        y: 900
+        width: 499
+        height: 184
+      alignment: 9
+      pivot: {x: 0.5210421, y: 0.5054348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrow-eyebrow_009
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 1285
+        width: 502
+        height: 181
+      alignment: 9
+      pivot: {x: 0.5179283, y: 0.46961325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrow-eyebrow_010
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 1468
+        width: 504
+        height: 184
+      alignment: 9
+      pivot: {x: 0.515873, y: 0.49456522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrow-eyebrow_011
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 214
+        width: 508
+        height: 175
+      alignment: 9
+      pivot: {x: 0.511811, y: 0.47428572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrow-eyebrow_012
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 1474
+        width: 510
+        height: 178
+      alignment: 9
+      pivot: {x: 0.50980395, y: 0.47191012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrow-eyebrow_013
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 423
+        width: 513
+        height: 169
+      alignment: 9
+      pivot: {x: 0.5068226, y: 0.52662724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrow-eyebrow_014
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1086
+        width: 515
+        height: 185
+      alignment: 9
+      pivot: {x: 0.5048544, y: 0.51891893}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyes-eyes_000
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 272
+        width: 282
+        height: 149
+      alignment: 9
+      pivot: {x: 0.5407801, y: 0.44630873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyes-eyes_001
+      rect:
+        serializedVersion: 2
+        x: 2872
+        y: 784
+        width: 318
+        height: 139
+      alignment: 9
+      pivot: {x: 0.5141509, y: 0.47841728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyes-eyes_002
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 40
+        width: 338
+        height: 113
+      alignment: 9
+      pivot: {x: 0.5133136, y: 0.42920354}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyes-eyes_003
+      rect:
+        serializedVersion: 2
+        x: 2479
+        y: 336
+        width: 351
+        height: 85
+      alignment: 9
+      pivot: {x: 0.497151, y: 0.41764706}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyes-eyes_004
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 692
+        width: 311
+        height: 90
+      alignment: 9
+      pivot: {x: 0.50321543, y: 0.4611111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyes-eyes_005
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 581
+        width: 285
+        height: 109
+      alignment: 9
+      pivot: {x: 0.51754385, y: 0.51834863}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyes-eyes_006
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 762
+        width: 244
+        height: 112
+      alignment: 9
+      pivot: {x: 0.5102459, y: 0.6026786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyes-eyes_007
+      rect:
+        serializedVersion: 2
+        x: 2212
+        y: 155
+        width: 218
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5298165, y: 0.6478261}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyes-eyes_008
+      rect:
+        serializedVersion: 2
+        x: 3161
+        y: 554
+        width: 224
+        height: 91
+      alignment: 9
+      pivot: {x: 0.57366073, y: 0.7197802}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyes-eyes_009
+      rect:
+        serializedVersion: 2
+        x: 3124
+        y: 466
+        width: 221
+        height: 86
+      alignment: 9
+      pivot: {x: 0.6040724, y: 0.78488374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyes-eyes_010
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 168
+        width: 213
+        height: 102
+      alignment: 9
+      pivot: {x: 0.6455399, y: 0.73039216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyes-eyes_011
+      rect:
+        serializedVersion: 2
+        x: 3187
+        y: 647
+        width: 229
+        height: 113
+      alignment: 9
+      pivot: {x: 0.6353712, y: 0.6681416}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyes-eyes_012
+      rect:
+        serializedVersion: 2
+        x: 3232
+        y: 1536
+        width: 252
+        height: 116
+      alignment: 9
+      pivot: {x: 0.59325397, y: 0.60775864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyes-eyes_013
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 759
+        width: 264
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5738636, y: 0.54651165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyes-eyes_014
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 60
+        width: 276
+        height: 152
+      alignment: 9
+      pivot: {x: 0.567029, y: 0.50328946}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: face
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 752
+        width: 847
+        height: 900
+      alignment: 9
+      pivot: {x: 0.49940968, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hairs-hairs_000
+      rect:
+        serializedVersion: 2
+        x: 2645
+        y: 83
+        width: 89
+        height: 83
+      alignment: 9
+      pivot: {x: 0.53370786, y: 0.48192772}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hairs-hairs_001
+      rect:
+        serializedVersion: 2
+        x: 2645
+        y: 3
+        width: 89
+        height: 78
+      alignment: 9
+      pivot: {x: 0.53370786, y: 0.55128205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hairs-hairs_002
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 175
+        width: 87
+        height: 76
+      alignment: 9
+      pivot: {x: 0.545977, y: 0.5394737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hairs-hairs_003
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 253
+        width: 90
+        height: 81
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.56790125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hairs-hairs_004
+      rect:
+        serializedVersion: 2
+        x: 4001
+        y: 498
+        width: 91
+        height: 91
+      alignment: 9
+      pivot: {x: 0.521978, y: 0.50549453}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hairs-hairs_005
+      rect:
+        serializedVersion: 2
+        x: 3368
+        y: 1047
+        width: 93
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5232558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hairs-hairs_006
+      rect:
+        serializedVersion: 2
+        x: 3396
+        y: 1220
+        width: 92
+        height: 89
+      alignment: 9
+      pivot: {x: 0.48369566, y: 0.48314607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hairs-hairs_007
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 82
+        width: 91
+        height: 84
+      alignment: 9
+      pivot: {x: 0.47802198, y: 0.45238096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hairs-hairs_008
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 1
+        width: 91
+        height: 79
+      alignment: 9
+      pivot: {x: 0.47802198, y: 0.4177215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hairs-hairs_009
+      rect:
+        serializedVersion: 2
+        x: 4003
+        y: 673
+        width: 92
+        height: 81
+      alignment: 9
+      pivot: {x: 0.48369566, y: 0.43209878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hairs-hairs_010
+      rect:
+        serializedVersion: 2
+        x: 3368
+        y: 876
+        width: 93
+        height: 83
+      alignment: 9
+      pivot: {x: 0.48924732, y: 0.45783132}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hairs-hairs_011
+      rect:
+        serializedVersion: 2
+        x: 4003
+        y: 591
+        width: 92
+        height: 80
+      alignment: 9
+      pivot: {x: 0.49456522, y: 0.4625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hairs-hairs_012
+      rect:
+        serializedVersion: 2
+        x: 3368
+        y: 961
+        width: 93
+        height: 84
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47619048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hairs-hairs_013
+      rect:
+        serializedVersion: 2
+        x: 3396
+        y: 1135
+        width: 92
+        height: 83
+      alignment: 9
+      pivot: {x: 0.5163044, y: 0.45783132}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hairs-hairs_014
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 879
+        width: 89
+        height: 70
+      alignment: 9
+      pivot: {x: 0.53370786, y: 0.47142857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaarm
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1654
+        width: 4077
+        height: 393
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: stache-stache_000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 342
+        width: 422
+        height: 202
+      alignment: 9
+      pivot: {x: 0.49526066, y: 0.52227724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: stache-stache_001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 546
+        width: 421
+        height: 204
+      alignment: 9
+      pivot: {x: 0.5035629, y: 0.4877451}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: stache-stache_002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 147
+        width: 422
+        height: 193
+      alignment: 9
+      pivot: {x: 0.50473934, y: 0.47409326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: stache-stache_003
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 167
+        width: 415
+        height: 191
+      alignment: 9
+      pivot: {x: 0.50120485, y: 0.44764397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: stache-stache_004
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 554
+        width: 420
+        height: 196
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47704083}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: stache-stache_005
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 890
+        width: 416
+        height: 189
+      alignment: 9
+      pivot: {x: 0.49519232, y: 0.49470899}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: stache-stache_006
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 890
+        width: 415
+        height: 189
+      alignment: 9
+      pivot: {x: 0.49156627, y: 0.51058203}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: stache-stache_007
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 1093
+        width: 411
+        height: 182
+      alignment: 9
+      pivot: {x: 0.50121653, y: 0.53571427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: stache-stache_008
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 1464
+        width: 417
+        height: 188
+      alignment: 9
+      pivot: {x: 0.5059952, y: 0.5505319}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: stache-stache_009
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 366
+        width: 422
+        height: 190
+      alignment: 9
+      pivot: {x: 0.50236964, y: 0.54473686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: stache-stache_010
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 174
+        width: 422
+        height: 190
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5394737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: stache-stache_011
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 167
+        width: 417
+        height: 191
+      alignment: 9
+      pivot: {x: 0.50119907, y: 0.5575916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: stache-stache_012
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1464
+        width: 422
+        height: 188
+      alignment: 9
+      pivot: {x: 0.49763033, y: 0.56648934}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: stache-stache_013
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1277
+        width: 422
+        height: 185
+      alignment: 9
+      pivot: {x: 0.50236964, y: 0.5432432}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: stache-stache_014
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1081
+        width: 421
+        height: 189
+      alignment: 9
+      pivot: {x: 0.49881235, y: 0.5582011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: teeth-botteeth_000
+      rect:
+        serializedVersion: 2
+        x: 3151
+        y: 1311
+        width: 337
+        height: 161
+      alignment: 9
+      pivot: {x: 0.5014837, y: 0.8447205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: teeth-botteeth_001
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 610
+        width: 338
+        height: 166
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75301206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: teeth-botteeth_002
+      rect:
+        serializedVersion: 2
+        x: 2813
+        y: 1307
+        width: 336
+        height: 165
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6848485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: teeth-botteeth_003
+      rect:
+        serializedVersion: 2
+        x: 2691
+        y: 925
+        width: 337
+        height: 166
+      alignment: 9
+      pivot: {x: 0.49851632, y: 0.59638554}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: teeth-botteeth_004
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 1118
+        width: 337
+        height: 165
+      alignment: 9
+      pivot: {x: 0.49851632, y: 0.4969697}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: teeth-botteeth_005
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 598
+        width: 336
+        height: 169
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42011833}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: teeth-botteeth_006
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 1
+        width: 333
+        height: 171
+      alignment: 9
+      pivot: {x: 0.5015015, y: 0.32748538}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: teeth-botteeth_007
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 391
+        width: 335
+        height: 176
+      alignment: 9
+      pivot: {x: 0.5044776, y: 0.2556818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: teeth-botteeth_008
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 393
+        width: 337
+        height: 174
+      alignment: 9
+      pivot: {x: 0.49851632, y: 0.23563218}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: teeth-botteeth_009
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 594
+        width: 338
+        height: 173
+      alignment: 9
+      pivot: {x: 0.5, y: 0.31791908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: teeth-botteeth_010
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1
+        width: 336
+        height: 171
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4093567}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: teeth-botteeth_011
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 951
+        width: 336
+        height: 165
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4909091}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: teeth-botteeth_012
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 2
+        width: 335
+        height: 163
+      alignment: 9
+      pivot: {x: 0.50149256, y: 0.5889571}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: teeth-botteeth_013
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1
+        width: 333
+        height: 164
+      alignment: 9
+      pivot: {x: 0.4954955, y: 0.66463417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: teeth-botteeth_014
+      rect:
+        serializedVersion: 2
+        x: 3059
+        y: 1140
+        width: 335
+        height: 165
+      alignment: 9
+      pivot: {x: 0.50149256, y: 0.74545455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tongue-tongue_000
+      rect:
+        serializedVersion: 2
+        x: 3418
+        y: 658
+        width: 583
+        height: 96
+      alignment: 9
+      pivot: {x: 0.13464837, y: 0.390625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tongue-tongue_001
+      rect:
+        serializedVersion: 2
+        x: 3490
+        y: 1118
+        width: 593
+        height: 107
+      alignment: 9
+      pivot: {x: 0.26559865, y: 0.57476634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tongue-tongue_002
+      rect:
+        serializedVersion: 2
+        x: 3490
+        y: 1227
+        width: 594
+        height: 102
+      alignment: 9
+      pivot: {x: 0.3611111, y: 0.5735294}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tongue-tongue_003
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 769
+        width: 573
+        height: 122
+      alignment: 9
+      pivot: {x: 0.39354277, y: 0.31557378}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tongue-tongue_004
+      rect:
+        serializedVersion: 2
+        x: 3490
+        y: 1539
+        width: 602
+        height: 113
+      alignment: 9
+      pivot: {x: 0.5091362, y: 0.35840708}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tongue-tongue_005
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 778
+        width: 596
+        height: 120
+      alignment: 9
+      pivot: {x: 0.58808726, y: 0.32083333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tongue-tongue_006
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 431
+        width: 578
+        height: 148
+      alignment: 9
+      pivot: {x: 0.6548443, y: 0.27364865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tongue-tongue_007
+      rect:
+        serializedVersion: 2
+        x: 3490
+        y: 1437
+        width: 598
+        height: 100
+      alignment: 9
+      pivot: {x: 0.68311036, y: 0.515}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tongue-tongue_008
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 5
+        width: 586
+        height: 140
+      alignment: 9
+      pivot: {x: 0.76365185, y: 0.6535714}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tongue-tongue_009
+      rect:
+        serializedVersion: 2
+        x: 3463
+        y: 967
+        width: 590
+        height: 149
+      alignment: 9
+      pivot: {x: 0.8550847, y: 0.68791944}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tongue-tongue_010
+      rect:
+        serializedVersion: 2
+        x: 3490
+        y: 1331
+        width: 596
+        height: 104
+      alignment: 9
+      pivot: {x: 0.8447987, y: 0.3221154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tongue-tongue_011
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 758
+        width: 581
+        height: 130
+      alignment: 9
+      pivot: {x: 0.8201377, y: 0.31153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tongue-tongue_012
+      rect:
+        serializedVersion: 2
+        x: 3438
+        y: 756
+        width: 584
+        height: 103
+      alignment: 9
+      pivot: {x: 0.79023975, y: 0.5873786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tongue-tongue_013
+      rect:
+        serializedVersion: 2
+        x: 3463
+        y: 861
+        width: 587
+        height: 104
+      alignment: 9
+      pivot: {x: 0.81345826, y: 0.4278846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: tongue-tongue_014
+      rect:
+        serializedVersion: 2
+        x: 3418
+        y: 540
+        width: 581
+        height: 116
+      alignment: 9
+      pivot: {x: 0.6342513, y: 0.34913793}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
