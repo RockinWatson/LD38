@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: e8454356e0c989442aa2eae2456aa039
+timeCreated: 1492979758
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Cheeseburger
+  fontNames:
+  - Cheeseburger
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
