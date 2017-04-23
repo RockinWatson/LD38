@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-abstract public class MushmanSeeker : MushmanBase {
+public class MushmanSeeker : MonoBehaviour {
 
 	private const float SPEED = 1.0f;
 
@@ -43,7 +43,7 @@ abstract public class MushmanSeeker : MushmanBase {
 			FindTarget();
 		}
 		if(_target) {
-			DebugDrawTarget(_target);
+			//DebugDrawTarget(_target);
 
 			Vector3 dirToTarget = (_target.transform.position - this.transform.position).normalized;
 			//Debug.DrawRay(this.transform.position, dirToTarget, Color.magenta);

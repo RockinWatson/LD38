@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
-	private const KeyCode KEY_MOVE_UP = KeyCode.W;
-	private const KeyCode KEY_MOVE_LEFT = KeyCode.A;
-	private const KeyCode KEY_MOVE_DOWN = KeyCode.S;
-	private const KeyCode KEY_MOVE_RIGHT = KeyCode.D;
+	private bool KEY_MOVE_UP() { return (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)); }
+	private bool KEY_MOVE_LEFT() { return (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)); }
+	private bool KEY_MOVE_DOWN() { return (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)); }
+	private bool KEY_MOVE_RIGHT() { return (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)); }
 
 	private const float ACCELERATION_SCALE = 1.5f;
 
@@ -29,16 +29,16 @@ public class PlayerMovement : MonoBehaviour {
 	}
 
 	private void UpdatePlayerMovement() {
-		if(Input.GetKey(KEY_MOVE_UP)) {
+		if(KEY_MOVE_UP()) {
 			_acceleration += GetAccelerationScaled(Vector3.up);
 		}
-		if(Input.GetKey(KEY_MOVE_DOWN)) {
+		if(KEY_MOVE_DOWN()) {
 			_acceleration += GetAccelerationScaled(Vector3.down);
 		}
-		if(Input.GetKey(KEY_MOVE_LEFT)) {
+		if(KEY_MOVE_LEFT()) {
 			_acceleration += GetAccelerationScaled(Vector3.left);
 		}
-		if(Input.GetKey(KEY_MOVE_RIGHT)) {
+		if(KEY_MOVE_RIGHT()) {
 				_acceleration += GetAccelerationScaled(Vector3.right);
 		}
 

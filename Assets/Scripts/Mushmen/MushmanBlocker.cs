@@ -4,7 +4,14 @@ using UnityEngine;
 
 public class MushmanBlocker : MushmanBase {
 
-	override protected void AttackTarget(Enemy enemy) {
-		base.AttackTarget(enemy);
-  }
+	// override public void AttackTarget(Enemy enemy) {
+	// 	base.AttackTarget(enemy);
+  // }
+
+	void OnCollisionEnter2D(Collision2D other) {
+		if(other.gameObject.tag == "Enemy") {
+			Enemy enemy = other.gameObject.GetComponent<Enemy>();
+			AttackTarget(enemy);
+		}
+	}
 }
