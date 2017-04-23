@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class MushmanSeeker : MonoBehaviour {
 
-	private const float SPEED = 1.0f;
+	[SerializeField]
+	private float SPEED = 1.0f;
 
 	private GameObject _target = null;
 

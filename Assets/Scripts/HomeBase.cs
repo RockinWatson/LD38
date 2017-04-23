@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class HomeBase : MonoBehaviour {
 
-	const float MAX_RESOURCE = 100.0f;
+	[SerializeField]
+	private float STARTING_RESOURCE = 300.0f;
 
-	private float _resource = MAX_RESOURCE;
+	private float _resource;
 
 	public bool HasEnoughResource(float amount) {
 		return (amount <= _resource);
@@ -30,7 +31,7 @@ public class HomeBase : MonoBehaviour {
 	}
 
 	private void Awake() {
-		_resource = 0.0f;
+		_resource = STARTING_RESOURCE;
 	}
 
 	// Use this for initialization
@@ -45,5 +46,18 @@ public class HomeBase : MonoBehaviour {
 
 	private void Die() {
 		//@TODO: Die Mofucka.
+	}
+
+	private void OnGUI() {
+		if(Application.isEditor) {
+			//Rect location = new Rect(Screen.width / 2, Screen.height - 10, Screen.width, Screen.height);
+			GUIStyle style = new GUIStyle();
+			//style.alignment = TextAnchor.LowerCenter;
+			style.normal.textColor = Color.black;
+			float posX = (Screen.width / 2) + 100;
+			float posY = Screen.height - 150;
+			Rect location = new Rect(posX, posY, Screen.width, Screen.height);
+			GUI.Label(location, "" + _resource, style);
+		}
 	}
 }

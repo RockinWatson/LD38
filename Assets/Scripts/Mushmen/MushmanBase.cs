@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+using Assets.Scripts;
+
 abstract public class MushmanBase : MonoBehaviour {
 
 	[SerializeField]
@@ -28,6 +30,10 @@ abstract public class MushmanBase : MonoBehaviour {
 	}
 
 	public virtual void AttackTarget(Enemy enemy) {
-		enemy.Damage(GetDamage());
+		float amount = enemy.Damage(GetDamage());
+
+		// Add transferred resources to home base.
+		HomeBase homeBase = GameObject.FindGameObjectWithTag(Constants.Tags.HomeBase).GetComponent<HomeBase>();
+		homeBase.AddResource(amount);
 	}
 }

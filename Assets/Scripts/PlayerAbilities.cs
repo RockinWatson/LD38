@@ -73,11 +73,11 @@ public class PlayerAbilities : MonoBehaviour {
 			case MushmenType.BLOCKER:
 			return BLOCKER_COST;
 			case MushmenType.WALKER:
-			return BLOCKER_COST;
+			return WALKER_COST;
 			case MushmenType.BOMB:
-			return BLOCKER_COST;
+			return BOMB_COST;
 			case MushmenType.ROCKET:
-			return BLOCKER_COST;
+			return ROCKET_COST;
 			default:
 			Debug.LogError("Unrecognized Mushmen Type!");
 			return 0;
@@ -92,9 +92,7 @@ public class PlayerAbilities : MonoBehaviour {
 
 	private bool CanSpawn(MushmenType type) {
 		float cost = GetMushmenCost(type);
-		return true;
-		//@TODO: Get this going once HomeBase is generating sheeeit.
-		//return _homeBase.HasEnoughResource(cost);
+		return _homeBase.HasEnoughResource(cost);
 	}
 
 	private void Spawn(MushmenType type) {
