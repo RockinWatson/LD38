@@ -34,20 +34,16 @@ public class Enemy : MonoBehaviour {
 		Destroy(this.gameObject);
 	}
 
-	public void OnTriggerEnter2D(Collider2D collision)
-	{
-		if (collision.name == Constants.Tags.HomeBase)
-		{
-			HomeBase homeBase = collision.GetComponent<HomeBase>();
-			homeBase.Damage(_damage);
-		}
-	}
-
 	void OnCollisionEnter2D(Collision2D other) {
+		//@TODO: Enter into Attack Mode with Timed Attack.
 		if(other.gameObject.tag == Constants.Tags.Mushmen) {
 			MushmanBase mushman = other.gameObject.GetComponent<MushmanBase>();
 			mushman.Damage(_damage);
-			//AttackTarget(enemy);
+		}
+		else if (other.gameObject.tag == Constants.Tags.HomeBase)
+		{
+			HomeBase homeBase = other.gameObject.GetComponent<HomeBase>();
+			homeBase.Damage(_damage);
 		}
 	}
 }

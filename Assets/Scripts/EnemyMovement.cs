@@ -43,7 +43,7 @@ public class EnemyMovement : MonoBehaviour {
             Debug.Log("Is not Colliding");
             //Movin to the target
             //_myTransform.position += (Target.position - _myTransform.position).normalized * MoveSpeed * Time.deltaTime;
-            _rigidBody.velocity = ((Target.position - _myTransform.position).normalized * MoveSpeed * Time.deltaTime);
+            _rigidBody.velocity = ((Target.position - _myTransform.position).normalized * MoveSpeed * Time.fixedDeltaTime);
         }
     }
 
@@ -57,33 +57,6 @@ public class EnemyMovement : MonoBehaviour {
     }
   }
 
-	// void Update () {
-  //
-  //       if (_isColliding)
-  //       {
-  //           Debug.Log("Is Colliding");
-  //           MoveSpeed = 0;
-  //       }
-  //       else
-  //       {
-  //           if (Target != null)
-  //           {
-  //               Debug.Log("Is not Colliding");
-  //               //Movin to the target
-  //               _myTransform.position += (Target.position - _myTransform.position).normalized * MoveSpeed * Time.deltaTime;
-  //           }
-  //       }
-  //
-  //       if (_myTransform.position.x > 0)
-  //       {
-  //           _myTransform.localScale = _left;
-  //       }
-  //       else
-  //       {
-  //           _myTransform.localScale = _right;
-  //       }
-  //   }
-
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.name == Constants.Tags.HomeBase)
@@ -95,4 +68,14 @@ public class EnemyMovement : MonoBehaviour {
             _isColliding = false;
         }
     }
+
+    void OnCollisionEnter2D(Collision2D other) {
+  		// if(other.gameObject.tag == Constants.Tags.Mushmen) {
+      //   _isColliding = true;
+  		// }
+  		if (other.gameObject.tag == Constants.Tags.HomeBase)
+  		{
+        _isColliding = true;
+  		}
+  	}
 }
