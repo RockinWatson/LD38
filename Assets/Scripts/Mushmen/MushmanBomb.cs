@@ -2,15 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MushmanBomb : MonoBehaviour {
+public class MushmanBomb : MushmanBase {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+	override protected void AttackTarget(Enemy enemy) {
+		base.AttackTarget(enemy);
+  }
 }

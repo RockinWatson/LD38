@@ -26,4 +26,15 @@ abstract public class MushmanBase : MonoBehaviour {
 	private void Die() {
 		Destroy(this.gameObject);
 	}
+
+	protected virtual void AttackTarget(Enemy enemy) {
+		enemy.Damage(GetDamage());
+	}
+
+	void OnCollisionEnter2D(Collision2D other) {
+		if(other.gameObject.tag == "Enemy") {
+			Enemy enemy = other.gameObject.GetComponent<Enemy>();
+			AttackTarget(enemy);
+		}
+	}
 }
