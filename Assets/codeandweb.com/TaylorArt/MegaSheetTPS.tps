@@ -502,6 +502,48 @@
                 <key>scale9FromFile</key>
                 <false/>
             </struct>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_000.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_001.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_002.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_003.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_004.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_005.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_006.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_007.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_008.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_009.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_010.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_011.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_012.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_013.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_014.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_015.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_016.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_017.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_018.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_019.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_020.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_021.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_022.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_023.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_024.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_025.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_026.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_027.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_028.png</key>
+            <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_029.png</key>
+            <struct type="IndividualSpriteSettings">
+                <key>pivotPoint</key>
+                <point_f>0.5,0.5</point_f>
+                <key>scale9Enabled</key>
+                <false/>
+                <key>scale9Borders</key>
+                <rect>51,48,101,96</rect>
+                <key>scale9Paddings</key>
+                <rect>51,48,101,96</rect>
+                <key>scale9FromFile</key>
+                <false/>
+            </struct>
             <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/goodies/blocker/blocker_000.png</key>
             <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/goodies/blocker/blocker_001.png</key>
             <key type="filename">../../../../GameDev/LD38/ArtDev/AniOutput/goodies/blocker/blocker_002.png</key>
@@ -816,6 +858,36 @@
             <filename>../../../../GameDev/LD38/ArtDev/crust.png</filename>
             <filename>../../../../GameDev/LD38/ArtDev/box1.png</filename>
             <filename>../../../../GameDev/LD38/ArtDev/box2back.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_001.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_002.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_003.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_004.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_005.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_006.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_007.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_008.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_009.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_010.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_011.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_012.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_013.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_014.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_015.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_016.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_017.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_018.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_019.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_020.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_021.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_022.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_023.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_024.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_025.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_026.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_027.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_028.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_029.png</filename>
+            <filename>../../../../GameDev/LD38/ArtDev/AniOutput/deathblowy/deathblowy_000.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>

@@ -2,11 +2,26 @@ version: 2
 importPivots: 1
 tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/codeandweb.com/TaylorArt/GameOver.tpsheet
 - Assets/codeandweb.com/TaylorArt/MegaSheet1.tpsheet
+- Assets/codeandweb.com/TaylorArt/MegaSheet2.tpsheet
+- Assets/codeandweb.com/TaylorArt/Paused.tpsheet
+- Assets/codeandweb.com/TaylorArt/SliceOfLifeTitle.tpsheet
+- Assets/codeandweb.com/TaylorArt/Winner.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/codeandweb.com/TaylorArt/GameOver.png
 - Assets/codeandweb.com/TaylorArt/MegaSheet1.png
+- Assets/codeandweb.com/TaylorArt/MegaSheet2.png
+- Assets/codeandweb.com/TaylorArt/Paused.png
+- Assets/codeandweb.com/TaylorArt/SliceOfLifeTitle.png
+- Assets/codeandweb.com/TaylorArt/Winner.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
 - 
 enableDebugOutput: 0
