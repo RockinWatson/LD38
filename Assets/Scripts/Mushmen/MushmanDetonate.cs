@@ -28,9 +28,6 @@ public class MushmanDetonate : MonoBehaviour {
 		// Find all Enemies within its radius.
 		bool foundEnemy = false;
 		Collider2D[] colliders = Physics2D.OverlapCircleAll(this.transform.position, _damageRadius);
-		if(colliders != null && colliders.Length > 0) {
-			Debug.Log("We Found some Colliders");
-		}
 		foreach(Collider2D collider in colliders) {
 			if(collider.tag == "Enemy") {
 				foundEnemy = true;
