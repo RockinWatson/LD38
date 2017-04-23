@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class HomeBase : MonoBehaviour {
 
-	private float _resource = 0.0f;
+	const float MAX_RESOURCE = 100.0f;
+	
+	private float _resource = MAX_RESOURCE;
 
 	public bool HasEnoughResource(float amount) {
 		return (amount <= _resource);

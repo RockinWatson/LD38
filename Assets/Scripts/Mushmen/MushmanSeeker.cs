@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MushmanWalker : MonoBehaviour {
+abstract public class MushmanSeeker : MushmanBase {
 
 	private const float SPEED = 1.0f;
 
@@ -13,7 +13,7 @@ public class MushmanWalker : MonoBehaviour {
 	}
 
 	// Use this for initialization
-	private void Start () {
+	void Start () {
 	}
 
 	// Update is called once per frame
@@ -21,16 +21,12 @@ public class MushmanWalker : MonoBehaviour {
 		MoveToTarget();
 	}
 
-	private void OnBecameInvisible() {
-		Destroy(this.gameObject);
-	}
-
 	private void FindTarget() {
 		float bestDistance = float.MaxValue;
 		GameObject newTarget = null;
 		GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
 		foreach(GameObject enemy in enemies) {
-			DebugDrawTarget(enemy);
+			//DebugDrawTarget(enemy);
 			float distance = (enemy.transform.position - this.transform.position).sqrMagnitude;
 			if(distance < bestDistance) {
 				newTarget = enemy;
@@ -38,7 +34,6 @@ public class MushmanWalker : MonoBehaviour {
 			}
 		}
 		if(newTarget) {
-			Debug.Log("FOUND A TARGET");
 			_target = newTarget;
 		}
 	}
@@ -51,7 +46,7 @@ public class MushmanWalker : MonoBehaviour {
 			DebugDrawTarget(_target);
 
 			Vector3 dirToTarget = (_target.transform.position - this.transform.position).normalized;
-			Debug.DrawRay(this.transform.position, dirToTarget, Color.magenta);
+			//Debug.DrawRay(this.transform.position, dirToTarget, Color.magenta);
 			this.transform.position += (dirToTarget * Time.deltaTime * SPEED);
 		}
 	}
