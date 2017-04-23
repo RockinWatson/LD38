@@ -12,22 +12,18 @@ public class MushmanDetonate : MonoBehaviour {
 		}
 	}
 
-	private void Detonate() {
+	public void Detonate() {
 		MushmanBase mushman = this.GetComponent<MushmanBase>();
 
 		// Find all Enemies within its radius.
-		bool foundEnemy = false;
 		Collider2D[] colliders = Physics2D.OverlapCircleAll(this.transform.position, _damageRadius);
 		foreach(Collider2D collider in colliders) {
 			if(collider.tag == Constants.Tags.Enemy) {
-				foundEnemy = true;
 				Enemy enemy = collider.GetComponent<Enemy>();
 				mushman.AttackTarget(enemy);
 			}
 		}
 
-		if(foundEnemy) {
-			mushman.Die();
-		}
+		mushman.Die();
 	}
 }
