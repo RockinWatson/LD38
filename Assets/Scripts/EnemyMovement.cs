@@ -3,13 +3,13 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour {
 
-    public Transform target;
-    public int moveSpeed;
+    public Transform Target;
+    public int MoveSpeed;
 
     private bool _isColliding;
     private Transform _myTransform;
-    private Vector3 _left = new Vector3(-1,1,1);
-    private Vector3 _right = new Vector3(1, 1, 1);
+    private readonly Vector3 _left = new Vector3(-1,1,1);
+    private readonly Vector3 _right = new Vector3(1, 1, 1);
 
     void Awake()
     {
@@ -17,20 +17,28 @@ public class EnemyMovement : MonoBehaviour {
     }
 
     void Start () {
-        GameObject homeBase = GameObject.FindGameObjectWithTag(Constants.Tags.HomeBase);
-        target = homeBase.transform;
+        var homeBase = GameObject.FindGameObjectWithTag(Constants.Tags.HomeBase);
+
+        if (Target != null)
+        {
+            Target = homeBase.transform;
+        }
+        
 	}
 	
 	void Update () {
 
         if (_isColliding)
         {
-            moveSpeed = 0;
+            MoveSpeed = 0;
         }
         else
         {
-            //Movin to the target
-            _myTransform.position += (target.position - _myTransform.position).normalized * moveSpeed * Time.deltaTime;
+            if (Target != null)
+            {
+                //Movin to the target
+                _myTransform.position += (Target.position - _myTransform.position).normalized * MoveSpeed * Time.deltaTime;
+            }
         }
 
         if (_myTransform.position.x > 0)
