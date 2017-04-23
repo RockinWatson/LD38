@@ -9,6 +9,15 @@ public class MushmanSeeker : MonoBehaviour {
 	[SerializeField]
 	private float _speedRamp = 0.0f;
 
+	[SerializeField]
+	private bool _rotateToTarget = false;
+
+	[SerializeField]
+	private float _rotateSpeed = 3.0f;
+
+	[SerializeField]
+	private float _rotateRocketSpeed = 4.0f;
+
 	private GameObject _target = null;
 
 	private void Awake() {
@@ -53,6 +62,14 @@ public class MushmanSeeker : MonoBehaviour {
 			Vector3 dirToTarget = (_target.transform.position - this.transform.position).normalized;
 			//Debug.DrawRay(this.transform.position, dirToTarget, Color.magenta);
 			this.transform.position += (dirToTarget * Time.deltaTime * _speed);
+
+			if(_rotateToTarget) {
+				this.transform.position += (this.transform.right * Time.deltaTime * _rotateRocketSpeed);
+
+				float angle = Mathf.Atan2(dirToTarget.y, dirToTarget.x) * Mathf.Rad2Deg;
+			 	Quaternion q = Quaternion.AngleAxis(angle, Vector3.forward);
+			 	this.transform.rotation = Quaternion.Slerp(transform.rotation, q, Time.deltaTime * _rotateSpeed);
+			}
 		}
 	}
 
