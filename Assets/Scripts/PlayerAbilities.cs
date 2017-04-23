@@ -1,6 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+using Assets.Scripts;
 using UnityEngine;
 
 public class PlayerAbilities : MonoBehaviour {
@@ -42,8 +40,8 @@ public class PlayerAbilities : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		_player = GameObject.FindWithTag("Player").GetComponent<Player>();
-		_homeBase = GameObject.FindWithTag("HomeBase").GetComponent<HomeBase>();
+		_player = GameObject.FindWithTag(Constants.Tags.Player).GetComponent<Player>();
+		_homeBase = GameObject.FindWithTag(Constants.Tags.HomeBase).GetComponent<HomeBase>();
 	}
 
 	// Update is called once per frame

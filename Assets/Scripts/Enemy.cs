@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 using Assets.Scripts;
 
@@ -45,7 +43,7 @@ public class Enemy : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D(Collision2D other) {
-		if(other.gameObject.tag == "Mushmen") {
+		if(other.gameObject.tag == Constants.Tags.Mushmen) {
 			MushmanBase mushman = other.gameObject.GetComponent<MushmanBase>();
 			mushman.Damage(_damage);
 			//AttackTarget(enemy);

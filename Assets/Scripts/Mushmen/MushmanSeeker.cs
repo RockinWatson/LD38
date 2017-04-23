@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Assets.Scripts;
 using UnityEngine;
 
 public class MushmanSeeker : MonoBehaviour {
@@ -30,7 +29,7 @@ public class MushmanSeeker : MonoBehaviour {
 	private void FindTarget() {
 		float bestDistance = float.MaxValue;
 		GameObject newTarget = null;
-		GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+		GameObject[] enemies = GameObject.FindGameObjectsWithTag(Constants.Tags.Enemy);
 		foreach(GameObject enemy in enemies) {
 			//DebugDrawTarget(enemy);
 			float distance = (enemy.transform.position - this.transform.position).sqrMagnitude;

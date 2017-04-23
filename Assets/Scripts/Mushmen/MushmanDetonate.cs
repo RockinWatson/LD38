@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Assets.Scripts;
 using UnityEngine;
 
 public class MushmanDetonate : MonoBehaviour {
@@ -18,7 +17,7 @@ public class MushmanDetonate : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D(Collision2D other) {
-		if(other.gameObject.tag == "Enemy") {
+		if(other.gameObject.tag == Constants.Tags.Enemy) {
 			//Enemy enemy = other.gameObject.GetComponent<Enemy>();
 			Detonate();
 		}
@@ -29,7 +28,7 @@ public class MushmanDetonate : MonoBehaviour {
 		bool foundEnemy = false;
 		Collider2D[] colliders = Physics2D.OverlapCircleAll(this.transform.position, _damageRadius);
 		foreach(Collider2D collider in colliders) {
-			if(collider.tag == "Enemy") {
+			if(collider.tag == Constants.Tags.Enemy) {
 				foundEnemy = true;
 				Enemy enemy = collider.GetComponent<Enemy>();
 				MushmanBase mushman = this.GetComponent<MushmanBase>();

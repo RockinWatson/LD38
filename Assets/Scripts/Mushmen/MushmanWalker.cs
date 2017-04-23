@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Assets.Scripts;
 using UnityEngine;
 
 public class MushmanWalker : MushmanBase {
@@ -29,7 +28,7 @@ public class MushmanWalker : MushmanBase {
     Physics2D.OverlapCollider(this.GetComponent<Collider2D>(), filter, colliders);
     if(colliders != null && colliders.Length > 0) {
       foreach(Collider2D collider in colliders) {
-  			if(collider.tag == "Enemy") {
+  			if(collider.tag == Constants.Tags.Enemy) {
           foundEnemy = true;
   				Enemy enemy = collider.GetComponent<Enemy>();
   				MushmanBase mushman = this.GetComponent<MushmanBase>();
@@ -50,7 +49,7 @@ public class MushmanWalker : MushmanBase {
   }
 
 	private void OnCollisionEnter2D(Collision2D other) {
-		if(other.gameObject.tag == "Enemy") {
+		if(other.gameObject.tag == Constants.Tags.Enemy) {
 			Enemy enemy = other.gameObject.GetComponent<Enemy>();
 			AttackTarget(enemy);
 		}

@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Assets.Scripts;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
@@ -13,14 +12,18 @@ public class PlayerMovement : MonoBehaviour {
 	private Vector3 _acceleration = Vector2.zero;
 	private Vector3 _velocity = Vector2.zero;
 	private GameObject _player = null;
+    private Vector3 _spriteLeft = new Vector3(1,1,1);
+    private Vector3 _spriteRight = new Vector3(-1, 1, 1);
+    private Transform _playerTransform;
 
-	private void Awake() {
+    private void Awake() {
 		_velocity = Vector2.zero;
+        _playerTransform = transform;
 	}
 
 	// Use this for initialization
 	void Start () {
-		_player = GameObject.FindWithTag("Player");
+		_player = GameObject.FindWithTag(Constants.Tags.Player);
 	}
 
 	// Update is called once per frame
@@ -37,10 +40,12 @@ public class PlayerMovement : MonoBehaviour {
 		}
 		if(KEY_MOVE_LEFT()) {
 			_acceleration += GetAccelerationScaled(Vector3.left);
+            _playerTransform.localScale = _spriteLeft;
 		}
 		if(KEY_MOVE_RIGHT()) {
-				_acceleration += GetAccelerationScaled(Vector3.right);
-		}
+			_acceleration += GetAccelerationScaled(Vector3.right);
+            _playerTransform.localScale = _spriteRight;
+        }
 
 		_velocity += _acceleration;
 		_player.transform.position += _velocity;
