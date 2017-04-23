@@ -30,12 +30,14 @@ public class EnemyMovement : MonoBehaviour {
 
         if (_isColliding)
         {
+            Debug.Log("Is Colliding");
             MoveSpeed = 0;
         }
         else
         {
             if (Target != null)
             {
+                Debug.Log("Is not Colliding");
                 //Movin to the target
                 _myTransform.position += (Target.position - _myTransform.position).normalized * MoveSpeed * Time.deltaTime;
             }
