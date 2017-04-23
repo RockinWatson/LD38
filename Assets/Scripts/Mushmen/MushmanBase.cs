@@ -25,7 +25,8 @@ abstract public class MushmanBase : MonoBehaviour {
 		}
 	}
 
-	private void Die() {
+	public void Die() {
+		FXManager.Get().SpawnKablooey(this.transform.position);
 		Destroy(this.gameObject);
 	}
 

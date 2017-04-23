@@ -30,6 +30,7 @@ public class Enemy : MonoBehaviour {
 	}
 
 	private void Die() {
+		FXManager.Get().SpawnKablooey(this.transform.position);
 		Destroy(this.gameObject);
 	}
 
