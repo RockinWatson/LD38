@@ -20,8 +20,11 @@ public class MushmanSeeker : MonoBehaviour {
 
 	private GameObject _target = null;
 
+	private Rigidbody2D rigidBody = null;
+
 	private void Awake() {
 		_target = null;
+		rigidBody = this.GetComponent<Rigidbody2D>();
 	}
 
 	// Use this for initialization
@@ -29,9 +32,13 @@ public class MushmanSeeker : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-	private void Update () {
-		_speed += (_speedRamp * Time.deltaTime);
+	// private void Update () {
+	// 	_speed += (_speedRamp * Time.deltaTime);
+	//
+	// 	MoveToTarget();
+	// }
 
+	private void FixedUpdate() {
 		MoveToTarget();
 	}
 
@@ -61,14 +68,20 @@ public class MushmanSeeker : MonoBehaviour {
 
 			Vector3 dirToTarget = (_target.transform.position - this.transform.position).normalized;
 			//Debug.DrawRay(this.transform.position, dirToTarget, Color.magenta);
-			this.transform.position += (dirToTarget * Time.deltaTime * _speed);
+			//this.transform.position += (dirToTarget * Time.deltaTime * _speed);
+
+			rigidBody.velocity = (dirToTarget * Time.fixedDeltaTime * _speed);
+
+			_speed += (_speedRamp * Time.fixedDeltaTime);
 
 			if(_rotateToTarget) {
-				this.transform.position += (this.transform.right * Time.deltaTime * _rotateRocketSpeed);
+				Vector2 rocketDir = (this.transform.right * Time.fixedDeltaTime * _rotateRocketSpeed);
+				rigidBody.velocity += rocketDir;
+				//this.transform.position += (this.transform.right * Time.deltaTime * _rotateRocketSpeed);
 
 				float angle = Mathf.Atan2(dirToTarget.y, dirToTarget.x) * Mathf.Rad2Deg;
 			 	Quaternion q = Quaternion.AngleAxis(angle, Vector3.forward);
-			 	this.transform.rotation = Quaternion.Slerp(transform.rotation, q, Time.deltaTime * _rotateSpeed);
+			 	this.transform.rotation = Quaternion.Slerp(transform.rotation, q, Time.fixedDeltaTime * _rotateSpeed);
 			}
 		}
 	}
