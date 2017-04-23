@@ -23,11 +23,19 @@ public class PlayerAbilities : MonoBehaviour {
 	[SerializeField]
 	private float BLOCKER_COST = 10.0f;
 	[SerializeField]
+	private GameObject BlockerPrefab = null;
+	[SerializeField]
 	private float WALKER_COST = 20.0f;
+	[SerializeField]
+	private GameObject WalkerPrefab = null;
 	[SerializeField]
 	private float BOMB_COST = 30.0f;
 	[SerializeField]
+	private GameObject BombPrefab = null;
+	[SerializeField]
 	private float ROCKET_COST = 40.0f;
+	[SerializeField]
+	private GameObject RocketPrefab = null;
 
 	private Player _player = null;
 	private HomeBase _homeBase = null;
@@ -113,28 +121,28 @@ public class PlayerAbilities : MonoBehaviour {
 	}
 
 	private void SpawnBlocker() {
-		GameObject walker = (GameObject)Instantiate(Resources.Load("Mushmen/MushmanBlocker"));
+		GameObject walker = (GameObject)Instantiate(BlockerPrefab);
 		walker.transform.position = _player.transform.position;
 
 		_homeBase.UseResource(BLOCKER_COST);
 	}
 
 	private void SpawnWalker() {
-		GameObject walker = (GameObject)Instantiate(Resources.Load("Mushmen/MushmanWalker"));
+		GameObject walker = (GameObject)Instantiate(WalkerPrefab);
 		walker.transform.position = _player.transform.position;
 
 		_homeBase.UseResource(WALKER_COST);
 	}
 
 	private void SpawnBomb() {
-		GameObject walker = (GameObject)Instantiate(Resources.Load("Mushmen/MushmanBomb"));
+		GameObject walker = (GameObject)Instantiate(BombPrefab);
 		walker.transform.position = _player.transform.position;
 
 		_homeBase.UseResource(BOMB_COST);
 	}
 
 	private void SpawnRocket() {
-		GameObject walker = (GameObject)Instantiate(Resources.Load("Mushmen/MushmanRocket"));
+		GameObject walker = (GameObject)Instantiate(RocketPrefab);
 		walker.transform.position = _player.transform.position;
 
 		_homeBase.UseResource(ROCKET_COST);
