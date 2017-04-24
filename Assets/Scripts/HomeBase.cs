@@ -1,4 +1,7 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
+
+using Assets.Scripts;
 
 public class HomeBase : MonoBehaviour {
 
@@ -37,6 +40,8 @@ public class HomeBase : MonoBehaviour {
 	}
 
 	private void Die() {
+		SceneManager.LoadScene(Constants.Scenes.GameOver);
+
 		//@TODO: Die Mofucka.
 		GameObject.Destroy(this.gameObject);
 	}
