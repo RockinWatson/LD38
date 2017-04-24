@@ -4,16 +4,16 @@ namespace Assets.Scripts
 {
     public class CloudMovement : MonoBehaviour
     {
-        private bool _randomSpeed;
+        private float _randomSpeed;
 
         void Start()
         {
-            //_randomSpeed = Random.Range(0.1, 0.9);
+            _randomSpeed = Random.Range(0.01f, 0.05f);
         }
 
         void Update()
         {
-            transform.Translate(Vector2.right * 0.1f);
+            transform.Translate(Vector2.right * _randomSpeed);
         }
     }
 }
