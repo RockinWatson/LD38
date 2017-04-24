@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class Player : MonoBehaviour {
 
@@ -12,15 +12,15 @@ public class Player : MonoBehaviour {
 		}
 	}
 
-    public void PlayerDeathAudio()
-    {
-        var playerDeath = GameObject.Find("AudioController");
-        playerDeath.GetComponent<AudioController>().playerDeathAudio();
-    }
+	public void PlayerDeathAudio()
+	{
+		var playerDeath = GameObject.Find("AudioController");
+		playerDeath.GetComponent<AudioController>().playerDeathAudio();
+	}
 
-    private void Die() {
+	private void Die() {
 		FXManager.Get().SpawnKablooey(this.transform.position);
-        PlayerDeathAudio();
+		PlayerDeathAudio();
 		Destroy(this.gameObject);
 	}
 }
