@@ -5,8 +5,13 @@ public class MushmanRocket : MushmanBase {
 	private float _lifeTime = 3.0f;
 	private float _lifeTimer = 0.0f;
 
+	private Rigidbody2D _rigidBody = null;
+	private const float MIN_SPEED_THRESHOLD_SQR = 1.0f;
+
 	private void Awake() {
 		_lifeTimer = 0.0f;
+
+		_rigidBody = this.GetComponent<Rigidbody2D>();
 	}
 
 	private void Start() {
@@ -14,10 +19,20 @@ public class MushmanRocket : MushmanBase {
 	}
 
 	private void Update() {
+		bool detonate = false;
+
 		_lifeTimer += Time.deltaTime;
 		if(_lifeTimer > _lifeTime) {
-			MushmanDetonate detonate = this.GetComponent<MushmanDetonate>();
-			detonate.Detonate();
+			detonate = true;
+		}
+
+		if(_rigidBody.velocity.sqrMagnitude < MIN_SPEED_THRESHOLD_SQR) {
+			detonate = true;
+		}
+
+		if(detonate) {
+			MushmanDetonate detonater = this.GetComponent<MushmanDetonate>();
+			detonater.Detonate();
 		}
 	}
 }

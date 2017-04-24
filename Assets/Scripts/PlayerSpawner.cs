@@ -19,7 +19,7 @@ public class PlayerSpawner : MonoBehaviour {
 
 	// Update is called once per frame
 	private void Update () {
-		if(Input.GetKeyDown(KEY_SPAWN_PLAYER) && IsPlayerDead()) {
+		if(Input.GetKeyDown(KEY_SPAWN_PLAYER) && _homeBase.HasEnoughResource(PLAYER_SPAWN_COST) && IsPlayerDead()) {
 			SpawnPlayer();
 		}
 	}
