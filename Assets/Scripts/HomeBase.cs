@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 using Assets.Scripts;
@@ -10,11 +10,16 @@ public class HomeBase : MonoBehaviour {
 
 	[SerializeField]
 	private float STARTING_RESOURCE = 300.0f;
-
 	private float _resource;
 
-    public Font MyFont;
-    public float timer;
+	[SerializeField]
+	private float STARTING_TIME = 180.0f;
+	private float _timer;
+
+	[SerializeField]
+	private TextMesh _mushroomForceText = null;
+	[SerializeField]
+	private TextMesh _timerText = null;
 
 	public bool HasEnoughResource(float amount) {
 		return (amount <= _resource);
@@ -40,14 +45,15 @@ public class HomeBase : MonoBehaviour {
 	private void Awake() {
 		_singleton = this;
 		_resource = STARTING_RESOURCE;
+		_timer = STARTING_TIME;
 	}
 
-    void Update()
-    {
-        Timer();
-    }
+	private void Update()
+	{
+		Timer();
+	}
 
-    private void Die() {
+	private void Die() {
 		SceneManager.LoadScene(Constants.Scenes.GameOver);
 
 		//@TODO: Die Mofucka.
@@ -55,40 +61,21 @@ public class HomeBase : MonoBehaviour {
 	}
 
 	private void OnGUI()
-    { 
-		if(Application.isEditor) {
-			//Rect location = new Rect(Screen.width / 2, Screen.height - 10, Screen.width, Screen.height);
-			GUIStyle style = new GUIStyle();
-		    GUI.skin.font = MyFont;
-		    style.fontSize = 35;
-			//style.alignment = TextAnchor.LowerCenter;
-			//style.normal.textColor = Color.black;
-			float posX = (Screen.width / 2) + 40;
-			float posY = Screen.height - 139;
-			Rect location = new Rect(posX, posY, Screen.width, Screen.height);
-			GUI.Label(location, "" + _resource, style);
+	{
+		_mushroomForceText.text = ("" + _resource);
 
-            //Timer
-		    GUIStyle style2 = new GUIStyle();
-		    GUI.skin.font = MyFont;
-		    style.fontSize = 35;
-		    float posX2 = (Screen.width / 2) + 150;
-		    float posY2 = Screen.height - 139;
-		    Rect location2 = new Rect(posX2, posY2, Screen.width, Screen.height);
-
-		    int minutes = Mathf.FloorToInt(timer / 60F);
-		    int seconds = Mathf.FloorToInt(timer - minutes * 60);
-		    string niceTime = string.Format("{0:0}:{1:00}", minutes, seconds);
-            GUI.Label(location2, "" + niceTime, style);
-        }
+		int minutes = Mathf.FloorToInt(_timer / 60F);
+		int seconds = Mathf.FloorToInt(_timer - minutes * 60);
+		string niceTime = string.Format("Preheat: {0:0}:{1:00}", minutes, seconds);
+		_timerText.text = niceTime;
 	}
 
-    private void Timer()
-    {
-        timer -= Time.deltaTime;
-        if (timer <= 0f)
-        {
-            SceneManager.LoadScene(Constants.Scenes.Winner1);   
-        }
-    }
+	private void Timer()
+	{
+		_timer -= Time.deltaTime;
+		if (_timer <= 0f)
+		{
+			SceneManager.LoadScene(Constants.Scenes.Winner1);
+		}
+	}
 }
