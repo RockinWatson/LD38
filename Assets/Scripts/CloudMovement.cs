@@ -15,5 +15,13 @@ namespace Assets.Scripts
         {
             transform.Translate(Vector2.right * _randomSpeed);
         }
+
+        void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.gameObject.CompareTag(Constants.Tags.CloudKiller))
+            {
+                Destroy(this.gameObject);
+            }            
+        }
     }
 }
