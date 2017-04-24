@@ -24,37 +24,18 @@ public class EnemyMovement : MonoBehaviour {
   }
 
   void FixedUpdate() {
-    if (_isColliding)
+    if (_target != null)
     {
-      _rigidBody.velocity = Vector2.zero;
-      //MoveSpeed = 0;
-    }
-    else
-    {
-      if (_target != null)
-      {
-        //Movin to the target
-        _rigidBody.velocity = ((_target.transform.position - _myTransform.position).normalized * MoveSpeed * Time.fixedDeltaTime);
-      }
-    }
-
-    if (_myTransform.position.x > 0)
-    {
-      _myTransform.localScale = _left;
-    }
-    else
-    {
-      _myTransform.localScale = _right;
+      //Movin to the target
+      _rigidBody.velocity = ((_target.transform.position - _myTransform.position).normalized * MoveSpeed * Time.fixedDeltaTime);
     }
   }
 
-  void OnCollisionEnter2D(Collision2D other) {
-    // if(other.gameObject.tag == Constants.Tags.Mushmen) {
-    //   _isColliding = true;
-    // }
-    if (other.gameObject.tag == Constants.Tags.HomeBase)
-    {
-      _isColliding = true;
-    }
+  private void Update() {
+    UpdateOrientation();
+  }
+
+  private void UpdateOrientation() {
+    _myTransform.localScale = (_myTransform.position.x > 0) ? _left : _right;
   }
 }
