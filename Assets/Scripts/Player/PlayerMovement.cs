@@ -1,4 +1,4 @@
-﻿using Assets.Scripts;
+using Assets.Scripts;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
@@ -12,18 +12,14 @@ public class PlayerMovement : MonoBehaviour {
 	private Vector3 _acceleration = Vector2.zero;
 	private Vector3 _velocity = Vector2.zero;
 	private GameObject _player = null;
-    private Vector3 _spriteLeft = new Vector3(1,1,1);
-    private Vector3 _spriteRight = new Vector3(-1, 1, 1);
-    private Transform _playerTransform;
+	private Vector3 _spriteLeft = new Vector3(1,1,1);
+	private Vector3 _spriteRight = new Vector3(-1, 1, 1);
+	private Transform _playerTransform;
 
-    private void Awake() {
-		_velocity = Vector2.zero;
-        _playerTransform = transform;
-	}
-
-	// Use this for initialization
-	void Start () {
+	private void Awake() {
 		_player = GameObject.FindWithTag(Constants.Tags.Player);
+		_playerTransform = _player.transform;
+		_velocity = Vector2.zero;
 	}
 
 	// Update is called once per frame
@@ -40,21 +36,32 @@ public class PlayerMovement : MonoBehaviour {
 		}
 		if(KEY_MOVE_LEFT()) {
 			_acceleration += GetAccelerationScaled(Vector3.left);
-            _playerTransform.localScale = _spriteLeft;
+			_playerTransform.localScale = _spriteLeft;
 		}
 		if(KEY_MOVE_RIGHT()) {
 			_acceleration += GetAccelerationScaled(Vector3.right);
-            _playerTransform.localScale = _spriteRight;
-        }
+			_playerTransform.localScale = _spriteRight;
+		}
 
 		_velocity += _acceleration;
-		_player.transform.position += _velocity;
+		_playerTransform.position += _velocity;
 
 		_acceleration = Vector3.Slerp(_acceleration, Vector3.zero, 0.5f);
 		_velocity = Vector3.Slerp(_velocity, Vector3.zero, 0.5f);
+
+		ClampPlayerPosition();
 	}
 
 	private Vector3 GetAccelerationScaled(Vector3 acceleration) {
 		return (acceleration * ACCELERATION_SCALE * Time.deltaTime);
+	}
+
+	private void ClampPlayerPosition() {
+		const float xBound = 9.0f;
+		const float yBound = 5.5f;
+		Vector3 playerPos = _playerTransform.position;
+		playerPos.x = Mathf.Clamp(playerPos.x, -xBound, xBound);
+		playerPos.y = Mathf.Clamp(playerPos.y, -yBound, yBound);
+		_playerTransform.position = playerPos;
 	}
 }
