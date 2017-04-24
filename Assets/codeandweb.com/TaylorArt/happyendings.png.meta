@@ -1,0 +1,1090 @@
+fileFormatVersion: 2
+guid: 1222d9749adb9a043a39c858eea32727
+timeCreated: 1493062934
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sadend-ending-sad_000
+    21300002: sadend-ending-sad_001
+    21300004: sadend-ending-sad_002
+    21300006: sadend-ending-sad_003
+    21300008: sadend-ending-sad_004
+    21300010: sadend-ending-sad_005
+    21300012: sadend-ending-sad_006
+    21300014: sadend-ending-sad_007
+    21300016: sadend-ending-sad_008
+    21300018: sadend-ending-sad_009
+    21300020: sadend-ending-sad_010
+    21300022: sadend-ending-sad_011
+    21300024: sadend-ending-sad_012
+    21300026: sadend-ending-sad_013
+    21300028: sadend-ending-sad_014
+    21300030: sadend-ending-sad_015
+    21300032: sadend-ending-sad_016
+    21300034: sadend-ending-sad_017
+    21300036: sadend-ending-sad_018
+    21300038: sadend-ending-sad_019
+    21300040: sadend-ending-sad_020
+    21300042: sadend-ending-sad_021
+    21300044: sadend-ending-sad_022
+    21300046: sadend-ending-sad_023
+    21300048: sadend-ending-sad_024
+    21300050: sadend-ending-sad_025
+    21300052: sadend-ending-sad_026
+    21300054: sadend-ending-sad_027
+    21300056: sadend-ending-sad_028
+    21300058: sadend-ending-sad_029
+    21300060: snotrocket
+    21300062: star
+    21300064: star1
+    21300066: star2
+    21300068: star3
+    21300070: star4
+    21300072: star5
+    21300074: star6
+    21300076: starlil7
+    21300078: starlil8
+    21300080: starlil9
+    21300082: starlil10
+    21300084: starlil11
+    21300086: yayend-end-happy_000
+    21300088: yayend-end-happy_001
+    21300090: yayend-end-happy_002
+    21300092: yayend-end-happy_003
+    21300094: yayend-end-happy_004
+    21300096: yayend-end-happy_005
+    21300098: yayend-end-happy_006
+    21300100: yayend-end-happy_007
+    21300102: yayend-end-happy_008
+    21300104: yayend-end-happy_009
+    21300106: yayend-end-happy_010
+    21300108: yayend-end-happy_011
+    21300110: yayend-end-happy_012
+    21300112: yayend-end-happy_013
+    21300114: yayend-end-happy_014
+    21300116: yayend-end-happy_015
+    21300118: yayend-end-happy_016
+    21300120: yayend-end-happy_017
+    21300122: yayend-end-happy_018
+    21300124: yayend-end-happy_019
+    21300126: yayend-end-happy_020
+    21300128: yayend-end-happy_021
+    21300130: yayend-end-happy_022
+    21300132: yayend-end-happy_023
+    21300134: yayend-end-happy_024
+    21300136: yayend-end-happy_025
+    21300138: yayend-end-happy_026
+    21300140: yayend-end-happy_027
+    21300142: yayend-end-happy_028
+    21300144: yayend-end-happy_029
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sadend-ending-sad_000
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 36
+        width: 201
+        height: 181
+      alignment: 9
+      pivot: {x: 0.51492536, y: 0.9171271}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_001
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1854
+        width: 209
+        height: 193
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8601036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_002
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 2
+        width: 202
+        height: 204
+      alignment: 9
+      pivot: {x: 0.5173267, y: 0.8137255}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_003
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 422
+        width: 202
+        height: 213
+      alignment: 9
+      pivot: {x: 0.5173267, y: 0.7793427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_004
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 542
+        width: 204
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5122549, y: 0.7477477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_005
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 1151
+        width: 205
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5097561, y: 0.7186147}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_006
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 52
+        width: 201
+        height: 240
+      alignment: 9
+      pivot: {x: 0.51492536, y: 0.69166666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_007
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 865
+        width: 204
+        height: 249
+      alignment: 9
+      pivot: {x: 0.50735295, y: 0.6666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_008
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 637
+        width: 203
+        height: 260
+      alignment: 9
+      pivot: {x: 0.5147783, y: 0.63461536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_009
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1582
+        width: 208
+        height: 270
+      alignment: 9
+      pivot: {x: 0.50240386, y: 0.6148148}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_010
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1763
+        width: 209
+        height: 284
+      alignment: 9
+      pivot: {x: 0.5, y: 0.58450705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_011
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 574
+        width: 205
+        height: 298
+      alignment: 9
+      pivot: {x: 0.5097561, y: 0.55369127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_012
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1450
+        width: 207
+        height: 311
+      alignment: 9
+      pivot: {x: 0.5048309, y: 0.5305466}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_013
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 766
+        width: 204
+        height: 319
+      alignment: 9
+      pivot: {x: 0.49754903, y: 0.51724136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_014
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1718
+        width: 209
+        height: 329
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5045593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_015
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 294
+        width: 201
+        height: 332
+      alignment: 9
+      pivot: {x: 0.51492536, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_016
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 88
+        width: 201
+        height: 332
+      alignment: 9
+      pivot: {x: 0.5199005, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_017
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1381
+        width: 205
+        height: 332
+      alignment: 9
+      pivot: {x: 0.5097561, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_018
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 379
+        width: 206
+        height: 332
+      alignment: 9
+      pivot: {x: 0.50728154, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_019
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 45
+        width: 206
+        height: 332
+      alignment: 9
+      pivot: {x: 0.50728154, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_020
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1381
+        width: 207
+        height: 332
+      alignment: 9
+      pivot: {x: 0.5048309, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_021
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1715
+        width: 208
+        height: 332
+      alignment: 9
+      pivot: {x: 0.50240386, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_022
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 379
+        width: 206
+        height: 332
+      alignment: 9
+      pivot: {x: 0.50728154, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_023
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 45
+        width: 206
+        height: 332
+      alignment: 9
+      pivot: {x: 0.50728154, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_024
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1381
+        width: 206
+        height: 332
+      alignment: 9
+      pivot: {x: 0.50728154, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_025
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1715
+        width: 205
+        height: 332
+      alignment: 9
+      pivot: {x: 0.5097561, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_026
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1047
+        width: 205
+        height: 332
+      alignment: 9
+      pivot: {x: 0.5097561, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_027
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 713
+        width: 205
+        height: 332
+      alignment: 9
+      pivot: {x: 0.5097561, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_028
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 1208
+        width: 205
+        height: 332
+      alignment: 9
+      pivot: {x: 0.5097561, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: sadend-ending-sad_029
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 962
+        width: 205
+        height: 332
+      alignment: 9
+      pivot: {x: 0.5097561, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: snotrocket
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1788
+        width: 32
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 8
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star1
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 1917
+        width: 32
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star2
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 1917
+        width: 32
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star3
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 1785
+        width: 32
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star4
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 1785
+        width: 32
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star5
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1916
+        width: 32
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: star6
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 1916
+        width: 32
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: starlil7
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 7
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: starlil8
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 8
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: starlil9
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 8
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: starlil10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 7
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: starlil11
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 7
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_000
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 36
+        width: 201
+        height: 181
+      alignment: 9
+      pivot: {x: 0.51492536, y: 0.9171271}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_001
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 1854
+        width: 209
+        height: 193
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8601036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_002
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 219
+        width: 202
+        height: 204
+      alignment: 9
+      pivot: {x: 0.5173267, y: 0.8137255}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_003
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 393
+        width: 202
+        height: 213
+      alignment: 9
+      pivot: {x: 0.5173267, y: 0.7793427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_004
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 1825
+        width: 209
+        height: 222
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7477477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_005
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 918
+        width: 205
+        height: 231
+      alignment: 9
+      pivot: {x: 0.5097561, y: 0.7186147}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_006
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 425
+        width: 203
+        height: 240
+      alignment: 9
+      pivot: {x: 0.50985223, y: 0.69166666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_007
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 667
+        width: 204
+        height: 249
+      alignment: 9
+      pivot: {x: 0.50735295, y: 0.6666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_008
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 608
+        width: 203
+        height: 255
+      alignment: 9
+      pivot: {x: 0.50985223, y: 0.6509804}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_009
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 1233
+        width: 207
+        height: 271
+      alignment: 9
+      pivot: {x: 0.5, y: 0.61254615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_010
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1296
+        width: 207
+        height: 284
+      alignment: 9
+      pivot: {x: 0.5048309, y: 0.58450705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_011
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1087
+        width: 205
+        height: 295
+      alignment: 9
+      pivot: {x: 0.5097561, y: 0.56271183}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_012
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1542
+        width: 207
+        height: 310
+      alignment: 9
+      pivot: {x: 0.5048309, y: 0.5354839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_013
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 1506
+        width: 207
+        height: 317
+      alignment: 9
+      pivot: {x: 0.5048309, y: 0.5236593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_014
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1718
+        width: 209
+        height: 329
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5045593}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_015
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 208
+        width: 202
+        height: 332
+      alignment: 9
+      pivot: {x: 0.51237625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_016
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 59
+        width: 201
+        height: 332
+      alignment: 9
+      pivot: {x: 0.5199005, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_017
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 874
+        width: 205
+        height: 332
+      alignment: 9
+      pivot: {x: 0.5097561, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_018
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1715
+        width: 206
+        height: 332
+      alignment: 9
+      pivot: {x: 0.50728154, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_019
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1047
+        width: 206
+        height: 332
+      alignment: 9
+      pivot: {x: 0.50728154, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_020
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1047
+        width: 207
+        height: 332
+      alignment: 9
+      pivot: {x: 0.5048309, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_021
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 713
+        width: 207
+        height: 332
+      alignment: 9
+      pivot: {x: 0.5048309, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_022
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 713
+        width: 206
+        height: 332
+      alignment: 9
+      pivot: {x: 0.50728154, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_023
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 379
+        width: 206
+        height: 332
+      alignment: 9
+      pivot: {x: 0.50728154, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_024
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 45
+        width: 206
+        height: 332
+      alignment: 9
+      pivot: {x: 0.50728154, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_025
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1384
+        width: 205
+        height: 332
+      alignment: 9
+      pivot: {x: 0.5097561, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_026
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1384
+        width: 205
+        height: 332
+      alignment: 9
+      pivot: {x: 0.5097561, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_027
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1116
+        width: 205
+        height: 332
+      alignment: 9
+      pivot: {x: 0.5097561, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_028
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 899
+        width: 205
+        height: 332
+      alignment: 9
+      pivot: {x: 0.5097561, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: yayend-end-happy_029
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 628
+        width: 205
+        height: 332
+      alignment: 9
+      pivot: {x: 0.5097561, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
