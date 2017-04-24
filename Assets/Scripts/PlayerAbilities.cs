@@ -39,13 +39,13 @@ public class PlayerAbilities : MonoBehaviour {
 	private HomeBase _homeBase = null;
 
 	// Use this for initialization
-	void Start () {
+	private void Awake () {
 		_player = GameObject.FindWithTag(Constants.Tags.Player).GetComponent<Player>();
 		_homeBase = GameObject.FindWithTag(Constants.Tags.HomeBase).GetComponent<HomeBase>();
 	}
 
 	// Update is called once per frame
-	void Update () {
+	private void Update () {
 		UpdatePlayerAbilities();
 	}
 

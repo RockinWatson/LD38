@@ -103,5 +103,10 @@ public class Enemy : MonoBehaviour {
 			HomeBase homeBase = other.gameObject.GetComponent<HomeBase>();
 			homeBase.Damage(_damage);
 		}
+		else if (other.gameObject.tag == Constants.Tags.Player)
+		{
+			Player player = other.gameObject.GetComponent<Player>();
+			player.Damage(_damage);
+		}
 	}
 }

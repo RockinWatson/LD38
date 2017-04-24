@@ -2,13 +2,18 @@
 
 public class Player : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-        		
+	[SerializeField]
+	private float _health = 50.0f;
+
+	public void Damage(float amount) {
+		_health -= amount;
+		if(_health <= 0.0f) {
+			Die();
+		}
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+	private void Die() {
+		FXManager.Get().SpawnKablooey(this.transform.position);
+		Destroy(this.gameObject);
 	}
 }
