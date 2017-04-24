@@ -2,6 +2,9 @@
 
 public class HomeBase : MonoBehaviour {
 
+	private static HomeBase _singleton = null;
+	static public HomeBase Get() { return _singleton; }
+
 	[SerializeField]
 	private float STARTING_RESOURCE = 300.0f;
 
@@ -29,17 +32,8 @@ public class HomeBase : MonoBehaviour {
 	}
 
 	private void Awake() {
+		_singleton = this;
 		_resource = STARTING_RESOURCE;
-	}
-
-	// Use this for initialization
-	void Start () {
-
-	}
-
-	// Update is called once per frame
-	void Update () {
-
 	}
 
 	private void Die() {

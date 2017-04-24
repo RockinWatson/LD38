@@ -10,12 +10,63 @@ public class Enemy : MonoBehaviour {
 	[SerializeField]
 	private float _damage = 30;
 
-	// Use this for initialization
-	void Start () {
+	[SerializeField]
+	private bool _ignoresMushmen = false;
+
+	[SerializeField]
+	private float _alertRadius = 3.0f;
+
+	private EnemyMovement _movement = null;
+
+	private float _targetUpdateThrottleTime = 0.25f;
+	private float _targetUpdateTimer = 0.0f;
+
+	private void Awake() {
+		_movement = this.GetComponent<EnemyMovement>();
+	}
+
+	private void Start() {
+		FindAndSetTarget();
 	}
 
 	// Update is called once per frame
-	void Update () {
+	private void Update () {
+		_targetUpdateTimer += Time.deltaTime;
+		if(_targetUpdateTimer > _targetUpdateThrottleTime) {
+			FindAndSetTarget();
+			_targetUpdateTimer = 0.0f;
+		}
+	}
+
+	private void FindAndSetTarget() {
+		GameObject target = FindTarget();
+		_movement.SetTarget(target);
+	}
+
+	private GameObject FindTarget() {
+		GameObject target = null;
+
+		// Try to find nearby Mushman (including Player).
+		if(!_ignoresMushmen) {
+			Collider2D[] colliders = Physics2D.OverlapCircleAll(this.transform.position, _alertRadius);
+			float bestDistance = float.MaxValue;
+			foreach(Collider2D collider in colliders) {
+				if(collider.tag == Constants.Tags.Mushmen || collider.tag == Constants.Tags.Player) {
+					float distanceSqr = (collider.transform.position - this.transform.position).sqrMagnitude;
+					if(distanceSqr < bestDistance) {
+						bestDistance = distanceSqr;
+						target = collider.gameObject;
+					}
+				}
+			}
+		}
+
+		// Fallback on the HomeBase.
+		if(!target) {
+			target = HomeBase.Get().gameObject;
+		}
+
+		return target;
 	}
 
 	public float Damage(float amount) {
