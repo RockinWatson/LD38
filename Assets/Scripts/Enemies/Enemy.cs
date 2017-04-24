@@ -26,7 +26,7 @@ public class Enemy : MonoBehaviour {
 	private float _targetUpdateThrottleTime = 0.25f;
 	private float _targetUpdateTimer = 0.0f;
 
-	private void Awake() {
+	protected void Awake() {
 		_movement = this.GetComponent<EnemyMovement>();
 	}
 
@@ -109,7 +109,7 @@ public class Enemy : MonoBehaviour {
 		return (!_timedAttack || (_attackTimer >= _attackSpeed));
 	}
 
-	public bool AttackObject(GameObject other) {
+	protected bool AttackObject(GameObject other) {
 		bool attacked = false;
 		if(CanAttack() && IsTargetEnemy(other)) {
 			if(other.tag == Constants.Tags.Mushmen) {

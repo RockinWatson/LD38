@@ -1,16 +1,15 @@
 ﻿using UnityEngine;
 
-public class Olive : MonoBehaviour {
+public class Olive : Enemy {
 
 	[SerializeField]
 	private float _rotateSpeed = 1.0f;
 
 	private Rigidbody2D _rigidBody = null;
-	private Enemy _enemySelf = null;
 
 	private void Awake() {
+		base.Awake();
 		_rigidBody = this.GetComponent<Rigidbody2D>();
-		_enemySelf = this.GetComponent<Enemy>();
 	}
 
 	private void FixedUpdate() {
@@ -26,6 +25,6 @@ public class Olive : MonoBehaviour {
 	}
 
 	private void OnCollisionEnter2D(Collision2D other) {
-		_enemySelf.AttackObject(other.gameObject);
+		AttackObject(other.gameObject);
 	}
 }

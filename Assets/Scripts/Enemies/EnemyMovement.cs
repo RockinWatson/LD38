@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour {
 
-  public GameObject _target;
+  private GameObject _target;
   public int MoveSpeed;
 
   private bool _isColliding;
