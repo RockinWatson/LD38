@@ -46,14 +46,16 @@ public class HomeBase : MonoBehaviour {
 		GameObject.Destroy(this.gameObject);
 	}
 
-	private void OnGUI() {
+	private void OnGUI()
+    { 
 		if(Application.isEditor) {
 			//Rect location = new Rect(Screen.width / 2, Screen.height - 10, Screen.width, Screen.height);
 			GUIStyle style = new GUIStyle();
+		    style.font = Font.CreateDynamicFontFromOSFont("Cheeseburger",30);
 			//style.alignment = TextAnchor.LowerCenter;
-			style.normal.textColor = Color.black;
+			//style.normal.textColor = Color.black;
 			float posX = (Screen.width / 2) + 100;
-			float posY = Screen.height - 150;
+			float posY = Screen.height - 135;
 			Rect location = new Rect(posX, posY, Screen.width, Screen.height);
 			GUI.Label(location, "" + _resource, style);
 		}
