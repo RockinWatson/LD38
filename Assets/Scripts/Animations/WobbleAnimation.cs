@@ -8,6 +8,7 @@ namespace Assets.Scripts
         private Vector2 _floatY;
         private float _originalY;
         public float FloatStrength;
+        public float FloatSpeed;
 
         void Start()
         {
@@ -16,7 +17,7 @@ namespace Assets.Scripts
 
         void Update()
         {
-            transform.position = new Vector3(transform.position.x, _originalY + ((float)Math.Sin(Time.time) * FloatStrength), transform.position.z);
+            transform.position = new Vector3(transform.position.x, _originalY + ((float)Math.Sin(Time.time * FloatSpeed) * FloatStrength), transform.position.z);
         }
     }
 }
