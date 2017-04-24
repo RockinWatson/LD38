@@ -27,17 +27,6 @@ public class MushmanSeeker : MonoBehaviour {
 		rigidBody = this.GetComponent<Rigidbody2D>();
 	}
 
-	// Use this for initialization
-	void Start () {
-	}
-
-	// Update is called once per frame
-	// private void Update () {
-	// 	_speed += (_speedRamp * Time.deltaTime);
-	//
-	// 	MoveToTarget();
-	// }
-
 	private void FixedUpdate() {
 		MoveToTarget();
 	}
@@ -64,11 +53,7 @@ public class MushmanSeeker : MonoBehaviour {
 			FindTarget();
 		}
 		if(_target) {
-			//DebugDrawTarget(_target);
-
 			Vector3 dirToTarget = (_target.transform.position - this.transform.position).normalized;
-			//Debug.DrawRay(this.transform.position, dirToTarget, Color.magenta);
-			//this.transform.position += (dirToTarget * Time.deltaTime * _speed);
 
 			rigidBody.velocity = (dirToTarget * Time.fixedDeltaTime * _speed);
 
@@ -77,17 +62,11 @@ public class MushmanSeeker : MonoBehaviour {
 			if(_rotateToTarget) {
 				Vector2 rocketDir = (this.transform.right * Time.fixedDeltaTime * _rotateRocketSpeed);
 				rigidBody.velocity += rocketDir;
-				//this.transform.position += (this.transform.right * Time.deltaTime * _rotateRocketSpeed);
 
 				float angle = Mathf.Atan2(dirToTarget.y, dirToTarget.x) * Mathf.Rad2Deg;
 			 	Quaternion q = Quaternion.AngleAxis(angle, Vector3.forward);
 			 	this.transform.rotation = Quaternion.Slerp(transform.rotation, q, Time.fixedDeltaTime * _rotateSpeed);
 			}
 		}
-	}
-
-	private void DebugDrawTarget(GameObject go) {
-		Debug.DrawRay(go.transform.position, Vector3.up, Color.red);
-		Debug.DrawRay(go.transform.position, Vector3.left, Color.green);
 	}
 }
