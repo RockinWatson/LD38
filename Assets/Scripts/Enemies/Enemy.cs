@@ -1,4 +1,3 @@
-﻿using System.Collections;
 using UnityEngine;
 
 using Assets.Scripts;
@@ -70,16 +69,16 @@ public class Enemy : MonoBehaviour {
 		return target;
 	}
 
-    public void EnemyDeathAudio()
-    {
-        var death_audio = GameObject.Find("AudioController");
-        death_audio.GetComponent<AudioController>().enemyDeathAudio();
-    }
+	public void EnemyDeathAudio()
+	{
+		var death_audio = GameObject.Find("AudioController");
+		death_audio.GetComponent<AudioController>().enemyDeathAudio();
+	}
 
-    public float Damage(float amount) {
+	public float Damage(float amount) {
 		_health -= amount;
 		if(_health <= 0.0f) {
-            EnemyDeathAudio();
+			EnemyDeathAudio();
 			Die();
 
 			amount += _health;
