@@ -12,8 +12,15 @@ public class Player : MonoBehaviour {
 		}
 	}
 
-	private void Die() {
+    public void PlayerDeathAudio()
+    {
+        var playerDeath = GameObject.Find("AudioController");
+        playerDeath.GetComponent<AudioController>().playerDeathAudio();
+    }
+
+    private void Die() {
 		FXManager.Get().SpawnKablooey(this.transform.position);
+        PlayerDeathAudio();
 		Destroy(this.gameObject);
 	}
 }

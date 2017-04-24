@@ -7,6 +7,9 @@ public class AudioController : MonoBehaviour {
     public AudioSource audio_source;
     public AudioClip explosion;
     public AudioClip enemyDeath;
+    public AudioClip playerDeath;
+    public AudioClip playerRespawn;
+
 
     public void explosionAudio()
     {
@@ -17,6 +20,18 @@ public class AudioController : MonoBehaviour {
     public void enemyDeathAudio()
     {
         audio_source.clip = enemyDeath;
+        GetComponent<AudioSource>().Play();
+    }
+
+    public void playerDeathAudio()
+    {
+        audio_source.clip = playerDeath;
+        GetComponent<AudioSource>().Play();
+    }
+
+    public void playerRespawnAudio()
+    {
+        audio_source.clip = playerRespawn;
         GetComponent<AudioSource>().Play();
     }
 

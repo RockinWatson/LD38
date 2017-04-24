@@ -24,12 +24,19 @@ public class PlayerSpawner : MonoBehaviour {
 		}
 	}
 
+    public void RespawnPlayerAudio()
+    {
+        var respawn = GameObject.Find("AudioController");
+        respawn.GetComponent<AudioController>().playerRespawnAudio();
+    }
+
 	private bool IsPlayerDead() {
 		GameObject player = GameObject.FindWithTag(Constants.Tags.Player);
 		return (player == null);
 	}
 
 	private void SpawnPlayer() {
+            RespawnPlayerAudio();
 			GameObject player = (GameObject)Instantiate(_playerPrefab);
 			player.transform.position = Vector3.zero + (Vector3.down * 2.0f);
 
