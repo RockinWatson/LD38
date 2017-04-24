@@ -11,6 +11,7 @@ public class AudioController : MonoBehaviour {
     public AudioClip playerRespawn;
 
 
+
     public void explosionAudio()
     {
         audio_source.clip = explosion;
@@ -33,6 +34,12 @@ public class AudioController : MonoBehaviour {
     {
         audio_source.clip = playerRespawn;
         GetComponent<AudioSource>().Play();
+    }
+
+    void Awake()
+    {
+        GameObject stopMusic = GameObject.FindGameObjectWithTag("music");
+        Destroy(stopMusic);
     }
 
     // Use this for initialization
