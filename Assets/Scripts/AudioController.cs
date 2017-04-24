@@ -6,10 +6,17 @@ public class AudioController : MonoBehaviour {
 
     public AudioSource audio_source;
     public AudioClip explosion;
+    public AudioClip enemyDeath;
 
     public void explosionAudio()
     {
         audio_source.clip = explosion;
+        GetComponent<AudioSource>().Play();
+    }
+
+    public void enemyDeathAudio()
+    {
+        audio_source.clip = enemyDeath;
         GetComponent<AudioSource>().Play();
     }
 

@@ -69,9 +69,16 @@ public class Enemy : MonoBehaviour {
 		return target;
 	}
 
-	public float Damage(float amount) {
+    public void EnemyDeathAudio()
+    {
+        var death_audio = GameObject.Find("AudioController");
+        death_audio.GetComponent<AudioController>().enemyDeathAudio();
+    }
+
+    public float Damage(float amount) {
 		_health -= amount;
 		if(_health <= 0.0f) {
+            EnemyDeathAudio();
 			Die();
 
 			amount += _health;
