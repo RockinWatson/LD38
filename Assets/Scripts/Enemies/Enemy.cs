@@ -42,9 +42,11 @@ public class Enemy : MonoBehaviour {
 			FindAndSetTarget();
 		}
 
-		_attackTimer += Time.deltaTime;
-		if(CanAttack()) {
-			AttackSomething();
+		if(_timedAttack) {
+			_attackTimer += Time.deltaTime;
+			if(CanAttack()) {
+				AttackSomething();
+			}
 		}
 	}
 
@@ -104,7 +106,7 @@ public class Enemy : MonoBehaviour {
 	}
 
 	private bool CanAttack() {
-		return (_attackTimer >= _attackSpeed);
+		return (!_timedAttack || (_attackTimer >= _attackSpeed));
 	}
 
 	public bool AttackObject(GameObject other) {
