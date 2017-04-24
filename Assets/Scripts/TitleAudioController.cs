@@ -13,6 +13,12 @@ public class TitleAudioController : MonoBehaviour {
         GetComponent<AudioSource>().Play();
     }
 
+    void Awake()
+    {
+        GameObject stopMusic = GameObject.FindGameObjectWithTag("endMusic");
+        Destroy(stopMusic);
+    }
+
     // Use this for initialization
     void Start () {
 		

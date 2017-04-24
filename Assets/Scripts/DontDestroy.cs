@@ -11,6 +11,14 @@ public class DontDestroy : MonoBehaviour {
             Destroy(this.gameObject);
 
         DontDestroyOnLoad(this.gameObject);
+
+
+        GameObject[] endMusicPlayer = GameObject.FindGameObjectsWithTag("endMusic");
+        if (endMusicPlayer.Length > 1)
+            Destroy(this.gameObject);
+
+        DontDestroyOnLoad(this.gameObject);
+
     }
 
 	// Use this for initialization
