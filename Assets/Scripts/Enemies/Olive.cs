@@ -6,9 +6,11 @@ public class Olive : MonoBehaviour {
 	private float _rotateSpeed = 1.0f;
 
 	private Rigidbody2D _rigidBody = null;
+	private Enemy _enemySelf = null;
 
 	private void Awake() {
 		_rigidBody = this.GetComponent<Rigidbody2D>();
+		_enemySelf = this.GetComponent<Enemy>();
 	}
 
 	private void FixedUpdate() {
@@ -21,5 +23,9 @@ public class Olive : MonoBehaviour {
 		float dotLeft = Vector3.Dot(velocity, Vector3.left);
 		float dotRight = Vector3.Dot(velocity, Vector3.right);
 		return (dotLeft > dotRight) ? 1.0f : -1.0f;
+	}
+
+	private void OnCollisionEnter2D(Collision2D other) {
+		_enemySelf.AttackObject(other.gameObject);
 	}
 }
