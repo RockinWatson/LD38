@@ -7,7 +7,7 @@ namespace Assets.Scripts.WinnerScenes
     {
         void Update()
         {
-            transform.Translate(Vector2.up * 0.05f);
+            transform.Translate(Vector2.up * 0.01f);
         }
 
         void OnTriggerEnter2D(Collider2D other)
