@@ -9,6 +9,7 @@
             public const string Mushmen = "Mushmen";
             public const string Enemy = "Enemy";
             public const string CloudKiller = "CloudKiller";
+            public const string NextSceneTrigger = "NextSceneTrigger";
         }
 
         public class Scenes
