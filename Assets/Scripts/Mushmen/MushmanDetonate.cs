@@ -12,7 +12,15 @@ public class MushmanDetonate : MonoBehaviour {
 		}
 	}
 
-	public void Detonate() {
+
+    public void Explosion_Audio()
+    {
+        var explosion = GameObject.Find("AudioController");
+        explosion.GetComponent<AudioController>().explosionAudio();
+    }
+
+    public void Detonate() {
+
 		MushmanBase mushman = this.GetComponent<MushmanBase>();
 
 		// Find all Enemies within its radius.
@@ -23,7 +31,7 @@ public class MushmanDetonate : MonoBehaviour {
 				mushman.AttackTarget(enemy);
 			}
 		}
-
-		mushman.Die();
+        Explosion_Audio();
+        mushman.Die();
 	}
 }
