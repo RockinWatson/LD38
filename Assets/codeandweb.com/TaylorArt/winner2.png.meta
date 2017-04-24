@@ -1,0 +1,300 @@
+fileFormatVersion: 2
+guid: cb088b4d19e67e54f9538c618b5c398e
+timeCreated: 1492995901
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: pizzafloatup_000
+    21300002: pizzafloatup_001
+    21300004: pizzafloatup_002
+    21300006: pizzafloatup_003
+    21300008: pizzafloatup_004
+    21300010: pizzafloatup_005
+    21300012: pizzafloatup_006
+    21300014: pizzafloatup_007
+    21300016: pizzafloatup_008
+    21300018: pizzafloatup_009
+    21300020: pizzafloatup_010
+    21300022: pizzafloatup_011
+    21300024: pizzafloatup_012
+    21300026: pizzafloatup_013
+    21300028: pizzafloatup_014
+    21300030: body
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: body
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3195
+        width: 1308
+        height: 900
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzafloatup_000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2331
+        width: 683
+        height: 290
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5275862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzafloatup_001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2908
+        width: 685
+        height: 285
+      alignment: 9
+      pivot: {x: 0.50291973, y: 0.50526315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzafloatup_002
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 2079
+        width: 683
+        height: 287
+      alignment: 9
+      pivot: {x: 0.49853587, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzafloatup_003
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 1510
+        width: 680
+        height: 278
+      alignment: 9
+      pivot: {x: 0.5036765, y: 0.4676259}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzafloatup_004
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 2368
+        width: 684
+        height: 282
+      alignment: 9
+      pivot: {x: 0.500731, y: 0.47517732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzafloatup_005
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1790
+        width: 681
+        height: 287
+      alignment: 9
+      pivot: {x: 0.49706313, y: 0.4912892}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzafloatup_006
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 2938
+        width: 685
+        height: 287
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5052265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzafloatup_007
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 3227
+        width: 685
+        height: 290
+      alignment: 9
+      pivot: {x: 0.50145984, y: 0.5137931}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzafloatup_008
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 3808
+        width: 687
+        height: 287
+      alignment: 9
+      pivot: {x: 0.4985444, y: 0.5156794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzafloatup_009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2048
+        width: 682
+        height: 281
+      alignment: 9
+      pivot: {x: 0.50073314, y: 0.5124555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzafloatup_010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1760
+        width: 681
+        height: 286
+      alignment: 9
+      pivot: {x: 0.50293684, y: 0.5104895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzafloatup_011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2623
+        width: 684
+        height: 283
+      alignment: 9
+      pivot: {x: 0.49780703, y: 0.5017668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzafloatup_012
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1505
+        width: 681
+        height: 283
+      alignment: 9
+      pivot: {x: 0.49853158, y: 0.49823323}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzafloatup_013
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 3519
+        width: 687
+        height: 287
+      alignment: 9
+      pivot: {x: 0.5014556, y: 0.5121951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzafloatup_014
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 2652
+        width: 684
+        height: 284
+      alignment: 9
+      pivot: {x: 0.49780703, y: 0.51760566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

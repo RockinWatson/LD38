@@ -1,0 +1,916 @@
+fileFormatVersion: 2
+guid: 541c3105ff2f29e40ade96b0d181620b
+timeCreated: 1492995861
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: pizzaworld_000
+    21300002: pizzaworld_001
+    21300004: pizzaworld_002
+    21300006: pizzaworld_003
+    21300008: pizzaworld_004
+    21300010: pizzaworld_005
+    21300012: pizzaworld_006
+    21300014: pizzaworld_007
+    21300016: pizzaworld_008
+    21300018: pizzaworld_009
+    21300020: pizzaworld_010
+    21300022: pizzaworld_011
+    21300024: pizzaworld_012
+    21300026: pizzaworld_013
+    21300028: pizzaworld_014
+    21300030: pizzaworld_015
+    21300032: pizzaworld_016
+    21300034: pizzaworld_017
+    21300036: pizzaworld_018
+    21300038: pizzaworld_019
+    21300040: pizzaworld_020
+    21300042: pizzaworld_021
+    21300044: pizzaworld_022
+    21300046: pizzaworld_023
+    21300048: pizzaworld_024
+    21300050: pizzaworld_025
+    21300052: pizzaworld_026
+    21300054: pizzaworld_027
+    21300056: pizzaworld_028
+    21300058: pizzaworld_029
+    21300060: pizzaworld_030
+    21300062: pizzaworld_031
+    21300064: pizzaworld_032
+    21300066: pizzaworld_033
+    21300068: pizzaworld_034
+    21300070: pizzaworld_035
+    21300072: pizzaworld_036
+    21300074: pizzaworld_037
+    21300076: pizzaworld_038
+    21300078: pizzaworld_039
+    21300080: pizzaworld_040
+    21300082: pizzaworld_041
+    21300084: pizzaworld_042
+    21300086: pizzaworld_043
+    21300088: pizzaworld_044
+    21300090: pizzaworld_045
+    21300092: pizzaworld_046
+    21300094: pizzaworld_047
+    21300096: pizzaworld_048
+    21300098: pizzaworld_049
+    21300100: pizzaworld_050
+    21300102: pizzaworld_051
+    21300104: pizzaworld_052
+    21300106: pizzaworld_053
+    21300108: pizzaworld_054
+    21300110: pizzaworld_055
+    21300112: pizzaworld_056
+    21300114: pizzaworld_057
+    21300116: pizzaworld_058
+    21300118: pizzaworld_059
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pizzaworld_000
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 3407
+        width: 788
+        height: 797
+      alignment: 9
+      pivot: {x: 0.50126904, y: 0.5012547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2610
+        width: 787
+        height: 794
+      alignment: 9
+      pivot: {x: 0.49936467, y: 0.49811083}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_002
+      rect:
+        serializedVersion: 2
+        x: 6423
+        y: 4246
+        width: 785
+        height: 796
+      alignment: 9
+      pivot: {x: 0.49808916, y: 0.50565326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_003
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 2636
+        width: 788
+        height: 792
+      alignment: 9
+      pivot: {x: 0.50634515, y: 0.5056818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_004
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1844
+        width: 777
+        height: 790
+      alignment: 9
+      pivot: {x: 0.5148005, y: 0.49810126}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3406
+        width: 792
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5050505, y: 0.49937657}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_006
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 7391
+        width: 805
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5068323, y: 0.499375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_007
+      rect:
+        serializedVersion: 2
+        x: 6448
+        y: 7403
+        width: 801
+        height: 788
+      alignment: 9
+      pivot: {x: 0.51435703, y: 0.5006345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_008
+      rect:
+        serializedVersion: 2
+        x: 6448
+        y: 6616
+        width: 801
+        height: 785
+      alignment: 9
+      pivot: {x: 0.5193508, y: 0.49490446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_009
+      rect:
+        serializedVersion: 2
+        x: 4035
+        y: 5818
+        width: 799
+        height: 787
+      alignment: 9
+      pivot: {x: 0.51564455, y: 0.49618804}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4210
+        width: 795
+        height: 794
+      alignment: 9
+      pivot: {x: 0.509434, y: 0.5006297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_011
+      rect:
+        serializedVersion: 2
+        x: 4838
+        y: 6590
+        width: 800
+        height: 795
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49748427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_012
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 6599
+        width: 802
+        height: 795
+      alignment: 9
+      pivot: {x: 0.49750623, y: 0.50503147}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_013
+      rect:
+        serializedVersion: 2
+        x: 6447
+        y: 5833
+        width: 795
+        height: 781
+      alignment: 9
+      pivot: {x: 0.5081761, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_014
+      rect:
+        serializedVersion: 2
+        x: 6437
+        y: 5044
+        width: 790
+        height: 787
+      alignment: 9
+      pivot: {x: 0.50253165, y: 0.49364677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_015
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 5811
+        width: 798
+        height: 778
+      alignment: 9
+      pivot: {x: 0.4924812, y: 0.48650387}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_016
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 6594
+        width: 802
+        height: 795
+      alignment: 9
+      pivot: {x: 0.49625936, y: 0.49245283}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_017
+      rect:
+        serializedVersion: 2
+        x: 3231
+        y: 6601
+        width: 802
+        height: 804
+      alignment: 9
+      pivot: {x: 0.49625936, y: 0.48942786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_018
+      rect:
+        serializedVersion: 2
+        x: 4842
+        y: 7387
+        width: 801
+        height: 804
+      alignment: 9
+      pivot: {x: 0.50062424, y: 0.4881841}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_019
+      rect:
+        serializedVersion: 2
+        x: 4796
+        y: 4192
+        width: 784
+        height: 799
+      alignment: 9
+      pivot: {x: 0.49362245, y: 0.48122653}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_020
+      rect:
+        serializedVersion: 2
+        x: 3981
+        y: 3407
+        width: 783
+        height: 807
+      alignment: 9
+      pivot: {x: 0.4916986, y: 0.4826518}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_021
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 4217
+        width: 793
+        height: 803
+      alignment: 9
+      pivot: {x: 0.49432534, y: 0.48630136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_022
+      rect:
+        serializedVersion: 2
+        x: 7251
+        y: 6608
+        width: 795
+        height: 793
+      alignment: 9
+      pivot: {x: 0.49811321, y: 0.48865068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_023
+      rect:
+        serializedVersion: 2
+        x: 2392
+        y: 3415
+        width: 788
+        height: 800
+      alignment: 9
+      pivot: {x: 0.50126904, y: 0.498125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_024
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 4221
+        width: 795
+        height: 798
+      alignment: 9
+      pivot: {x: 0.49937108, y: 0.50438595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_025
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 4206
+        width: 793
+        height: 796
+      alignment: 9
+      pivot: {x: 0.50189155, y: 0.5006281}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_026
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 2614
+        width: 778
+        height: 799
+      alignment: 9
+      pivot: {x: 0.5025707, y: 0.49749687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_027
+      rect:
+        serializedVersion: 2
+        x: 7229
+        y: 5031
+        width: 786
+        height: 793
+      alignment: 9
+      pivot: {x: 0.49363866, y: 0.49495587}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_028
+      rect:
+        serializedVersion: 2
+        x: 5615
+        y: 4218
+        width: 785
+        height: 791
+      alignment: 9
+      pivot: {x: 0.49044585, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_029
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 2615
+        width: 778
+        height: 790
+      alignment: 9
+      pivot: {x: 0.48586118, y: 0.5031645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_030
+      rect:
+        serializedVersion: 2
+        x: 4824
+        y: 4993
+        width: 789
+        height: 799
+      alignment: 9
+      pivot: {x: 0.4917617, y: 0.50250316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_031
+      rect:
+        serializedVersion: 2
+        x: 5645
+        y: 6595
+        width: 800
+        height: 805
+      alignment: 9
+      pivot: {x: 0.49375, y: 0.50496894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_032
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 6584
+        width: 805
+        height: 802
+      alignment: 9
+      pivot: {x: 0.489441, y: 0.50062346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_033
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 6591
+        width: 802
+        height: 794
+      alignment: 9
+      pivot: {x: 0.48877805, y: 0.50188917}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_034
+      rect:
+        serializedVersion: 2
+        x: 5645
+        y: 7402
+        width: 801
+        height: 789
+      alignment: 9
+      pivot: {x: 0.48439452, y: 0.50126743}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_035
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 5021
+        width: 797
+        height: 788
+      alignment: 9
+      pivot: {x: 0.48055208, y: 0.5031726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_036
+      rect:
+        serializedVersion: 2
+        x: 4037
+        y: 7404
+        width: 803
+        height: 787
+      alignment: 9
+      pivot: {x: 0.47945204, y: 0.51016515}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_037
+      rect:
+        serializedVersion: 2
+        x: 7251
+        y: 7403
+        width: 801
+        height: 788
+      alignment: 9
+      pivot: {x: 0.48564294, y: 0.5095178}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_038
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 3430
+        width: 793
+        height: 789
+      alignment: 9
+      pivot: {x: 0.48802018, y: 0.5063371}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_039
+      rect:
+        serializedVersion: 2
+        x: 4836
+        y: 5794
+        width: 794
+        height: 794
+      alignment: 9
+      pivot: {x: 0.49244332, y: 0.49811083}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_040
+      rect:
+        serializedVersion: 2
+        x: 4035
+        y: 6607
+        width: 801
+        height: 795
+      alignment: 9
+      pivot: {x: 0.49313357, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_041
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 5789
+        width: 797
+        height: 793
+      alignment: 9
+      pivot: {x: 0.50062734, y: 0.49747792}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_042
+      rect:
+        serializedVersion: 2
+        x: 4028
+        y: 5023
+        width: 794
+        height: 793
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49747792}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_043
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 5807
+        width: 798
+        height: 790
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5006329}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_044
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 5806
+        width: 798
+        height: 786
+      alignment: 9
+      pivot: {x: 0.49749374, y: 0.4955471}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_045
+      rect:
+        serializedVersion: 2
+        x: 5640
+        y: 5814
+        width: 795
+        height: 779
+      alignment: 9
+      pivot: {x: 0.49433962, y: 0.49743262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_046
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 5006
+        width: 797
+        height: 781
+      alignment: 9
+      pivot: {x: 0.49560854, y: 0.50512165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_047
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 5008
+        width: 794
+        height: 787
+      alignment: 9
+      pivot: {x: 0.49622166, y: 0.50635326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_048
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 5022
+        width: 796
+        height: 783
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5114943}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_049
+      rect:
+        serializedVersion: 2
+        x: 7244
+        y: 5826
+        width: 791
+        height: 780
+      alignment: 9
+      pivot: {x: 0.5006321, y: 0.51474357}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_050
+      rect:
+        serializedVersion: 2
+        x: 3231
+        y: 7407
+        width: 804
+        height: 784
+      alignment: 9
+      pivot: {x: 0.50373137, y: 0.5082908}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_051
+      rect:
+        serializedVersion: 2
+        x: 2424
+        y: 7396
+        width: 805
+        height: 795
+      alignment: 9
+      pivot: {x: 0.5031056, y: 0.50880504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_052
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 7388
+        width: 807
+        height: 803
+      alignment: 9
+      pivot: {x: 0.5030979, y: 0.5087173}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_053
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 7387
+        width: 805
+        height: 804
+      alignment: 9
+      pivot: {x: 0.4993789, y: 0.50932837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_054
+      rect:
+        serializedVersion: 2
+        x: 3228
+        y: 5797
+        width: 798
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5012531, y: 0.5093516}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_055
+      rect:
+        serializedVersion: 2
+        x: 4006
+        y: 4216
+        width: 788
+        height: 805
+      alignment: 9
+      pivot: {x: 0.50126904, y: 0.5149068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_056
+      rect:
+        serializedVersion: 2
+        x: 3191
+        y: 4204
+        width: 788
+        height: 802
+      alignment: 9
+      pivot: {x: 0.5025381, y: 0.52057356}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_057
+      rect:
+        serializedVersion: 2
+        x: 3182
+        y: 3402
+        width: 783
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5083014, y: 0.519375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_058
+      rect:
+        serializedVersion: 2
+        x: 5632
+        y: 5011
+        width: 789
+        height: 801
+      alignment: 9
+      pivot: {x: 0.5031686, y: 0.5162297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pizzaworld_059
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 5004
+        width: 795
+        height: 800
+      alignment: 9
+      pivot: {x: 0.5044025, y: 0.518125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

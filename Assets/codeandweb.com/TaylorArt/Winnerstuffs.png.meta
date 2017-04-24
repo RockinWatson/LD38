@@ -1,0 +1,1328 @@
+fileFormatVersion: 2
+guid: 50f0efd6cd882fe41ad6a5c039e9999d
+timeCreated: 1492996455
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: eyebrows_000
+    21300002: eyebrows_001
+    21300004: eyebrows_002
+    21300006: eyebrows_003
+    21300008: eyebrows_004
+    21300010: eyebrows_005
+    21300012: eyebrows_006
+    21300014: eyebrows_007
+    21300016: eyebrows_008
+    21300018: eyebrows_009
+    21300020: eyebrows_010
+    21300022: eyebrows_011
+    21300024: eyebrows_012
+    21300026: eyebrows_013
+    21300028: eyebrows_014
+    21300030: hat_000
+    21300032: hat_001
+    21300034: hat_002
+    21300036: hat_003
+    21300038: hat_004
+    21300040: hat_005
+    21300042: hat_006
+    21300044: hat_007
+    21300046: hat_008
+    21300048: hat_009
+    21300050: hat_010
+    21300052: hat_011
+    21300054: hat_012
+    21300056: hat_013
+    21300058: hat_014
+    21300060: mouthbottom_000
+    21300062: mouthbottom_001
+    21300064: mouthbottom_002
+    21300066: mouthbottom_003
+    21300068: mouthbottom_004
+    21300070: mouthbottom_005
+    21300072: mouthbottom_006
+    21300074: mouthbottom_007
+    21300076: mouthbottom_008
+    21300078: mouthbottom_009
+    21300080: mouthbottom_010
+    21300082: mouthbottom_011
+    21300084: mouthbottom_012
+    21300086: mouthbottom_013
+    21300088: mouthbottom_014
+    21300090: mouthtop_000
+    21300092: mouthtop_001
+    21300094: mouthtop_002
+    21300096: mouthtop_003
+    21300098: mouthtop_004
+    21300100: mouthtop_005
+    21300102: mouthtop_006
+    21300104: mouthtop_007
+    21300106: mouthtop_008
+    21300108: mouthtop_009
+    21300110: mouthtop_010
+    21300112: mouthtop_011
+    21300114: mouthtop_012
+    21300116: mouthtop_013
+    21300118: mouthtop_014
+    21300120: pits_000
+    21300122: pits_001
+    21300124: pits_002
+    21300126: pits_003
+    21300128: pits_004
+    21300130: pits_005
+    21300132: pits_006
+    21300134: pits_007
+    21300136: pits_008
+    21300138: pits_009
+    21300140: pits_010
+    21300142: pits_011
+    21300144: pits_012
+    21300146: pits_013
+    21300148: pits_014
+    21300150: pupils_000
+    21300152: pupils_001
+    21300154: pupils_002
+    21300156: pupils_003
+    21300158: pupils_004
+    21300160: pupils_005
+    21300162: pupils_006
+    21300164: pupils_007
+    21300166: pupils_008
+    21300168: pupils_009
+    21300170: pupils_010
+    21300172: pupils_011
+    21300174: pupils_012
+    21300176: pupils_013
+    21300178: pupils_014
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: eyebrows_000
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 1833
+        width: 294
+        height: 104
+      alignment: 9
+      pivot: {x: 0.49829933, y: 0.50961536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrows_001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 610
+        width: 292
+        height: 102
+      alignment: 9
+      pivot: {x: 0.49828768, y: 0.5294118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrows_002
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 575
+        width: 292
+        height: 102
+      alignment: 9
+      pivot: {x: 0.49828768, y: 0.51960784}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrows_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 520
+        width: 292
+        height: 88
+      alignment: 9
+      pivot: {x: 0.49828768, y: 0.5113636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrows_004
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 683
+        width: 292
+        height: 83
+      alignment: 9
+      pivot: {x: 0.49828768, y: 0.5301205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrows_005
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 687
+        width: 292
+        height: 79
+      alignment: 9
+      pivot: {x: 0.49828768, y: 0.5316456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrows_006
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 1565
+        width: 294
+        height: 83
+      alignment: 9
+      pivot: {x: 0.5017007, y: 0.5421687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrows_007
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1480
+        width: 294
+        height: 83
+      alignment: 9
+      pivot: {x: 0.5017007, y: 0.5301205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrows_008
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 1650
+        width: 294
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5017007, y: 0.53488374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrows_009
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 1738
+        width: 294
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5017007, y: 0.5268817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrows_010
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 787
+        width: 293
+        height: 101
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5346535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrows_011
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 682
+        width: 292
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5017123, y: 0.52427185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrows_012
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 1939
+        width: 294
+        height: 108
+      alignment: 9
+      pivot: {x: 0.49829933, y: 0.5185185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrows_013
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1368
+        width: 293
+        height: 110
+      alignment: 9
+      pivot: {x: 0.49658704, y: 0.5090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: eyebrows_014
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 679
+        width: 292
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5017123, y: 0.5090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat_000
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 768
+        width: 462
+        height: 181
+      alignment: 9
+      pivot: {x: 0.49025974, y: 0.5138122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat_001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 714
+        width: 470
+        height: 178
+      alignment: 9
+      pivot: {x: 0.5074468, y: 0.5224719}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat_002
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1160
+        width: 489
+        height: 182
+      alignment: 9
+      pivot: {x: 0.50817996, y: 0.510989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat_003
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 1075
+        width: 488
+        height: 181
+      alignment: 9
+      pivot: {x: 0.49487704, y: 0.5138122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat_004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1264
+        width: 493
+        height: 186
+      alignment: 9
+      pivot: {x: 0.49594322, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat_005
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1258
+        width: 493
+        height: 185
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5027027}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat_006
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 1445
+        width: 497
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat_007
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1344
+        width: 497
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat_008
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1138
+        width: 493
+        height: 183
+      alignment: 9
+      pivot: {x: 0.49594322, y: 0.4918033}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat_009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1079
+        width: 488
+        height: 183
+      alignment: 9
+      pivot: {x: 0.49077868, y: 0.4918033}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat_010
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 951
+        width: 482
+        height: 185
+      alignment: 9
+      pivot: {x: 0.4865145, y: 0.4972973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat_011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 894
+        width: 485
+        height: 183
+      alignment: 9
+      pivot: {x: 0.49175256, y: 0.4918033}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat_012
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 791
+        width: 477
+        height: 181
+      alignment: 9
+      pivot: {x: 0.4832285, y: 0.48618785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat_013
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 974
+        width: 487
+        height: 184
+      alignment: 9
+      pivot: {x: 0.49383983, y: 0.5054348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: hat_014
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 890
+        width: 479
+        height: 183
+      alignment: 9
+      pivot: {x: 0.5020877, y: 0.5081967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthbottom_000
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 587
+        width: 137
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5, y: 0.40163934}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthbottom_001
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 527
+        width: 137
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4051724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthbottom_002
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 699
+        width: 137
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35964912}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthbottom_003
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 548
+        width: 137
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3425926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthbottom_004
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 473
+        width: 137
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.29807693}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthbottom_005
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 420
+        width: 137
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.30392158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthbottom_006
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 604
+        width: 137
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3181818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthbottom_007
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 640
+        width: 137
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5, y: 0.32456142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthbottom_008
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 824
+        width: 137
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3984375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthbottom_009
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1390
+        width: 137
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47916666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthbottom_010
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 758
+        width: 137
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5703125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthbottom_011
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 650
+        width: 137
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5, y: 0.62096775}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthbottom_012
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 726
+        width: 137
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthbottom_013
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1323
+        width: 137
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5769231}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthbottom_014
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 661
+        width: 137
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthtop_000
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 567
+        width: 251
+        height: 118
+      alignment: 9
+      pivot: {x: 0.49800798, y: 0.48305085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthtop_001
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 433
+        width: 249
+        height: 119
+      alignment: 9
+      pivot: {x: 0.5060241, y: 0.49579832}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthtop_002
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 451
+        width: 251
+        height: 122
+      alignment: 9
+      pivot: {x: 0.49402392, y: 0.5081967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthtop_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 265
+        width: 248
+        height: 130
+      alignment: 9
+      pivot: {x: 0.48790324, y: 0.53846157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthtop_004
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 554
+        width: 253
+        height: 126
+      alignment: 9
+      pivot: {x: 0.5019763, y: 0.515873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthtop_005
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 335
+        width: 249
+        height: 114
+      alignment: 9
+      pivot: {x: 0.51004016, y: 0.4649123}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthtop_006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 397
+        width: 251
+        height: 121
+      alignment: 9
+      pivot: {x: 0.5059761, y: 0.47933885}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthtop_007
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 430
+        width: 250
+        height: 135
+      alignment: 9
+      pivot: {x: 0.508, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthtop_008
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 564
+        width: 251
+        height: 117
+      alignment: 9
+      pivot: {x: 0.49800798, y: 0.4957265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthtop_009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 44
+        width: 246
+        height: 106
+      alignment: 9
+      pivot: {x: 0.5121951, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthtop_010
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 52
+        width: 248
+        height: 104
+      alignment: 9
+      pivot: {x: 0.51209676, y: 0.48076922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthtop_011
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 235
+        width: 248
+        height: 98
+      alignment: 9
+      pivot: {x: 0.51209676, y: 0.47959185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthtop_012
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 458
+        width: 250
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47115386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthtop_013
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 158
+        width: 245
+        height: 105
+      alignment: 9
+      pivot: {x: 0.5020408, y: 0.47619048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: mouthtop_014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 152
+        width: 246
+        height: 111
+      alignment: 9
+      pivot: {x: 0.50406504, y: 0.46846846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pits_000
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1633
+        width: 546
+        height: 104
+      alignment: 9
+      pivot: {x: 0.496337, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pits_001
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1739
+        width: 548
+        height: 103
+      alignment: 9
+      pivot: {x: 0.49817517, y: 0.49514562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pits_002
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1532
+        width: 545
+        height: 99
+      alignment: 9
+      pivot: {x: 0.49541286, y: 0.47474748}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pits_003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1547
+        width: 547
+        height: 94
+      alignment: 9
+      pivot: {x: 0.49725777, y: 0.44680852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pits_004
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1452
+        width: 545
+        height: 93
+      alignment: 9
+      pivot: {x: 0.49541286, y: 0.4408602}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pits_005
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1749
+        width: 550
+        height: 94
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44680852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pits_006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1845
+        width: 550
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45833334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pits_007
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1844
+        width: 550
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pits_008
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1845
+        width: 550
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45833334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pits_009
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1946
+        width: 550
+        height: 101
+      alignment: 9
+      pivot: {x: 0.5, y: 0.48514852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pits_010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1943
+        width: 550
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pits_011
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1739
+        width: 548
+        height: 104
+      alignment: 9
+      pivot: {x: 0.49817517, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pits_012
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1643
+        width: 548
+        height: 104
+      alignment: 9
+      pivot: {x: 0.49817517, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pits_013
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1943
+        width: 550
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pits_014
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1633
+        width: 547
+        height: 104
+      alignment: 9
+      pivot: {x: 0.49725777, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pupils_000
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1464
+        width: 144
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5729167, y: 1.6851852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pupils_001
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1531
+        width: 152
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5427632, y: 0.890625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pupils_002
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 1330
+        width: 159
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5188679, y: 0.29166666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pupils_003
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1327
+        width: 165
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: -0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pupils_004
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1493
+        width: 144
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5104167, y: -0.20833333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pupils_005
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 915
+        width: 120
+        height: 34
+      alignment: 9
+      pivot: {x: 0.52916664, y: -0.22058824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pupils_006
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 1770
+        width: 96
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5572917, y: -0.24193548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pupils_007
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 1926
+        width: 82
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5914634, y: -0.29310346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pupils_008
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 1957
+        width: 84
+        height: 29
+      alignment: 9
+      pivot: {x: 0.60119045, y: -0.3275862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pupils_009
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 1988
+        width: 86
+        height: 28
+      alignment: 9
+      pivot: {x: 0.622093, y: -0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pupils_010
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 2018
+        width: 89
+        height: 29
+      alignment: 9
+      pivot: {x: 0.6348315, y: -0.36206895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pupils_011
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 1803
+        width: 97
+        height: 28
+      alignment: 9
+      pivot: {x: 0.62371135, y: -0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pupils_012
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 855
+        width: 109
+        height: 28
+      alignment: 9
+      pivot: {x: 0.61009175, y: 0.30357143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pupils_013
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 885
+        width: 120
+        height: 28
+      alignment: 9
+      pivot: {x: 0.59583336, y: 0.73214287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: pupils_014
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 610
+        width: 132
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5871212, y: 1.1607143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
