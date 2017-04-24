@@ -4,6 +4,7 @@ tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 - Assets/codeandweb.com/TaylorArt/Cut-spritesheet.tpsheet
 - Assets/codeandweb.com/TaylorArt/GameOver.tpsheet
+- Assets/codeandweb.com/TaylorArt/happyendings.tpsheet
 - Assets/codeandweb.com/TaylorArt/MegaSheet1.tpsheet
 - Assets/codeandweb.com/TaylorArt/MegaSheet2.tpsheet
 - Assets/codeandweb.com/TaylorArt/Paused.tpsheet
@@ -17,6 +18,7 @@ textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 - Assets/codeandweb.com/TaylorArt/Cut-spritesheet.png
 - Assets/codeandweb.com/TaylorArt/GameOver.png
+- Assets/codeandweb.com/TaylorArt/happyendings.png
 - Assets/codeandweb.com/TaylorArt/MegaSheet1.png
 - Assets/codeandweb.com/TaylorArt/MegaSheet2.png
 - Assets/codeandweb.com/TaylorArt/Paused.png
@@ -28,6 +30,7 @@ textureFileNames:
 - Assets/codeandweb.com/TaylorArt/WinnerWorld.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
 - 
 - 
 - 
