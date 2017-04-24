@@ -7,7 +7,7 @@ public class Olive : Enemy {
 
 	private Rigidbody2D _rigidBody = null;
 
-	private void Awake() {
+	protected override void Awake() {
 		base.Awake();
 		_rigidBody = this.GetComponent<Rigidbody2D>();
 	}

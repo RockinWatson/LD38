@@ -26,7 +26,7 @@ public class Enemy : MonoBehaviour {
 	private float _targetUpdateThrottleTime = 0.25f;
 	private float _targetUpdateTimer = 0.0f;
 
-	protected void Awake() {
+	protected virtual void Awake() {
 		_movement = this.GetComponent<EnemyMovement>();
 	}
 
@@ -88,6 +88,14 @@ public class Enemy : MonoBehaviour {
 		death_audio.GetComponent<AudioController>().enemyDeathAudio();
 	}
 
+	virtual protected float GetDamageScale() {
+		return 1.0f;
+	}
+
+	private float GetDamage() {
+		return (GetDamageScale() * _damage);
+	}
+
 	public float Damage(float amount) {
 		_health -= amount;
 		if(_health <= 0.0f) {
@@ -114,19 +122,19 @@ public class Enemy : MonoBehaviour {
 		if(CanAttack() && IsTargetEnemy(other)) {
 			if(other.tag == Constants.Tags.Mushmen) {
 				MushmanBase mushman = other.GetComponent<MushmanBase>();
-				mushman.Damage(_damage);
+				mushman.Damage(GetDamage());
 				attacked = true;
 			}
 			else if (other.tag == Constants.Tags.HomeBase)
 			{
 				HomeBase homeBase = other.GetComponent<HomeBase>();
-				homeBase.Damage(_damage);
+				homeBase.Damage(GetDamage());
 				attacked = true;
 			}
 			else if (other.tag == Constants.Tags.Player)
 			{
 				Player player = other.GetComponent<Player>();
-				player.Damage(_damage);
+				player.Damage(GetDamage());
 				attacked = true;
 			}
 			if(attacked) {
