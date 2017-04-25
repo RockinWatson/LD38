@@ -2,6 +2,11 @@
 {
     public class Constants
     {
+        public class Globals
+        {
+            public static float Score;
+        }
+
         public class Tags
         {
             public const string HomeBase = "HomeBase";
