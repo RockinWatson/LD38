@@ -106,6 +106,7 @@ public class HomeBase : MonoBehaviour {
 	}
 
 	private void SetWinState() {
+		Constants.Globals.Score = _resource;
 		_timer = 0.0f;
 		_state = HomeBaseState.WIN;
 		_anim.runtimeAnimatorController = _animWin;
@@ -115,7 +116,6 @@ public class HomeBase : MonoBehaviour {
 	private void UpdateWinState() {
 		_stateTimer -= Time.deltaTime;
 		if(_stateTimer <= 0.0f) {
-	    Constants.Globals.Score = _resource;
 			_state = HomeBaseState.DONE;
 			GameObject kablooey = (GameObject)Instantiate(_winKablooey);
 			kablooey.transform.position = _endingKabloeeyAnchor.position;
