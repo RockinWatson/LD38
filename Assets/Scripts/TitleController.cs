@@ -13,7 +13,7 @@ namespace Assets.Scripts
         }*/
 
 
-        private bool SPACE_UP() { return (Input.GetKey(KeyCode.Space)); }
+        private bool SPACE_UP() { return (Input.GetKeyDown(KeyCode.Space)); }
         private Scene _scene;
 
         void Update()
