@@ -52,6 +52,8 @@ public class HomeBase : MonoBehaviour {
 	public void AddResource(float amount) {
 		if(!IsNormalPlay()) return;
 
+		amount = Mathf.Max(0.0f, amount);
+
 		_resource += amount;
 	}
 
@@ -104,6 +106,7 @@ public class HomeBase : MonoBehaviour {
 	}
 
 	private void SetWinState() {
+		_timer = 0.0f;
 		_state = HomeBaseState.WIN;
 		_anim.runtimeAnimatorController = _animWin;
 		_stateTimer = _anim.GetCurrentAnimatorStateInfo(0).length;
