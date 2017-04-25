@@ -132,7 +132,9 @@ public class HomeBase : MonoBehaviour {
 	private void UpdateLoseState() {
 		_stateTimer -= Time.deltaTime;
 		if(_stateTimer <= 0.0f) {
-			SceneManager.LoadScene(Constants.Scenes.GameOver);
+			_state = HomeBaseState.DONE;
+			GameObject kablooey = (GameObject)Instantiate(_loseKablooey);
+			kablooey.transform.position = _endingKabloeeyAnchor.position;
 		}
 	}
 
