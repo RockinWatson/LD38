@@ -25,13 +25,21 @@ public class HomeBase : MonoBehaviour {
 	private RuntimeAnimatorController _animWin = null;
 	[SerializeField]
 	private RuntimeAnimatorController _animLose = null;
-
 	private Animator _anim = null;
+
+	[SerializeField]
+	private GameObject _winKablooey = null;
+	[SerializeField]
+	private GameObject _loseKablooey = null;
+
+	[SerializeField]
+	private Transform _endingKabloeeyAnchor = null;
 
 	private enum HomeBaseState {
 		NORMAL = 0,
 		WIN = 1,
 		LOSE = 2,
+		DONE = 3,
 	};
 	private HomeBaseState _state = HomeBaseState.NORMAL;
 	private float _stateTimer = 0.0f;
@@ -103,11 +111,11 @@ public class HomeBase : MonoBehaviour {
 
 	private void UpdateWinState() {
 		_stateTimer -= Time.deltaTime;
-		if(_stateTimer <= 0.0f)
-		{
-		    _stateTimer = 0.0f;
-		    Constants.Globals.Score = _resource;
-			SceneManager.LoadScene(Constants.Scenes.Winner1);
+		if(_stateTimer <= 0.0f) {
+	    Constants.Globals.Score = _resource;
+			_state = HomeBaseState.DONE;
+			GameObject kablooey = (GameObject)Instantiate(_winKablooey);
+			kablooey.transform.position = _endingKabloeeyAnchor.position;
 		}
 	}
 
@@ -120,9 +128,7 @@ public class HomeBase : MonoBehaviour {
 
 	private void UpdateLoseState() {
 		_stateTimer -= Time.deltaTime;
-		if(_stateTimer <= 0.0f)
-		{
-		    _stateTimer = 0.0f;
+		if(_stateTimer <= 0.0f) {
 			SceneManager.LoadScene(Constants.Scenes.GameOver);
 		}
 	}
