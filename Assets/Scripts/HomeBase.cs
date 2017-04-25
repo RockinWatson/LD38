@@ -105,6 +105,7 @@ public class HomeBase : MonoBehaviour {
 		_stateTimer -= Time.deltaTime;
 		if(_stateTimer <= 0.0f)
 		{
+		    _stateTimer = 0.0f;
 		    Constants.Globals.Score = _resource;
 			SceneManager.LoadScene(Constants.Scenes.Winner1);
 		}
@@ -119,7 +120,9 @@ public class HomeBase : MonoBehaviour {
 
 	private void UpdateLoseState() {
 		_stateTimer -= Time.deltaTime;
-		if(_stateTimer <= 0.0f) {
+		if(_stateTimer <= 0.0f)
+		{
+		    _stateTimer = 0.0f;
 			SceneManager.LoadScene(Constants.Scenes.GameOver);
 		}
 	}
