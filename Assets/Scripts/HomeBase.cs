@@ -122,6 +122,7 @@ public class HomeBase : MonoBehaviour {
 			_state = HomeBaseState.DONE;
 			GameObject kablooey = (GameObject)Instantiate(_winKablooey);
 			kablooey.transform.position = _endingKabloeeyAnchor.position;
+			PlayGoodExplodyAudio();
 		}
 	}
 
@@ -138,6 +139,7 @@ public class HomeBase : MonoBehaviour {
 			_state = HomeBaseState.DONE;
 			GameObject kablooey = (GameObject)Instantiate(_loseKablooey);
 			kablooey.transform.position = _endingKabloeeyAnchor.position;
+			PlayBadExplodyAudio();
 		}
 	}
 
@@ -167,5 +169,15 @@ public class HomeBase : MonoBehaviour {
 		{
 			SetWinState();
 		}
+	}
+
+	private void PlayGoodExplodyAudio() {
+		GameObject explosion = GameObject.Find("AudioController");
+		explosion.GetComponent<AudioController>().goodExplodyAudio();
+	}
+
+	private void PlayBadExplodyAudio() {
+		GameObject explosion = GameObject.Find("AudioController");
+		explosion.GetComponent<AudioController>().badExplodyAudio();
 	}
 }

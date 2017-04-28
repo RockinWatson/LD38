@@ -10,6 +10,11 @@ public class AudioController : MonoBehaviour {
     public AudioClip playerDeath;
     public AudioClip playerRespawn;
 
+    [SerializeField]
+    private AudioClip _goodExplody = null;
+
+    [SerializeField]
+    private AudioClip _badExplody = null;
 
 
     public void explosionAudio()
@@ -33,6 +38,18 @@ public class AudioController : MonoBehaviour {
     public void playerRespawnAudio()
     {
         audio_source.clip = playerRespawn;
+        GetComponent<AudioSource>().Play();
+    }
+
+    public void goodExplodyAudio()
+    {
+        audio_source.clip = _goodExplody;
+        GetComponent<AudioSource>().Play();
+    }
+
+    public void badExplodyAudio()
+    {
+        audio_source.clip = _badExplody;
         GetComponent<AudioSource>().Play();
     }
 
