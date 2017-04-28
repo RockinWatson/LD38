@@ -2,6 +2,7 @@ version: 2
 importPivots: 1
 tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/codeandweb.com/TaylorArt/bars.tpsheet
 - Assets/codeandweb.com/TaylorArt/Cut-spritesheet.tpsheet
 - Assets/codeandweb.com/TaylorArt/GameOver.tpsheet
 - Assets/codeandweb.com/TaylorArt/happyendings.tpsheet
@@ -16,6 +17,7 @@ tpsheetFileNames:
 - Assets/codeandweb.com/TaylorArt/WinnerWorld.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/codeandweb.com/TaylorArt/bars.png
 - Assets/codeandweb.com/TaylorArt/Cut-spritesheet.png
 - Assets/codeandweb.com/TaylorArt/GameOver.png
 - Assets/codeandweb.com/TaylorArt/happyendings.png
@@ -30,6 +32,7 @@ textureFileNames:
 - Assets/codeandweb.com/TaylorArt/WinnerWorld.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
 - 
 - 
 - 
