@@ -3,12 +3,23 @@ using UnityEngine;
 
 public class MushmanWalker : MushmanBase {
 
+	[SerializeField]
+	private float _speed = 1.0f;
+
   [SerializeField]
   private float _attackSpeed = 0.5f;
   private float _attackTimer = 0.0f;
 
   private bool _isAttacking = false;
 
+  private GameObject _target = null;
+
+	private Rigidbody2D _rigidBody = null;
+
+  private void Awake() {
+    _target = null;
+    _rigidBody = this.GetComponent<Rigidbody2D>();
+  }
 
   private void Update() {
     if(_isAttacking) {
@@ -52,6 +63,38 @@ public class MushmanWalker : MushmanBase {
 		if(other.gameObject.tag == Constants.Tags.Enemy) {
 			Enemy enemy = other.gameObject.GetComponent<Enemy>();
 			AttackTarget(enemy);
+		}
+	}
+
+  private void FixedUpdate() {
+		MoveToTarget();
+	}
+
+	private void FindTarget() {
+		float bestDistance = float.MaxValue;
+		GameObject newTarget = null;
+		GameObject[] enemies = GameObject.FindGameObjectsWithTag(Constants.Tags.Enemy);
+		foreach(GameObject enemy in enemies) {
+			//DebugDrawTarget(enemy);
+			float distance = (enemy.transform.position - this.transform.position).sqrMagnitude;
+			if(distance < bestDistance) {
+				newTarget = enemy;
+				bestDistance = distance;
+			}
+		}
+		if(newTarget) {
+			_target = newTarget;
+		}
+	}
+
+	private void MoveToTarget() {
+		if(!_target) {
+			FindTarget();
+		}
+		if(_target) {
+			Vector3 dirToTarget = (_target.transform.position - this.transform.position).normalized;
+
+			_rigidBody.velocity = (dirToTarget * Time.fixedDeltaTime * _speed);
 		}
 	}
 }
