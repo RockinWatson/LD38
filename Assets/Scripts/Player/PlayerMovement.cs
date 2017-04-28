@@ -16,10 +16,13 @@ public class PlayerMovement : MonoBehaviour {
 	private Vector3 _spriteRight = new Vector3(-1, 1, 1);
 	private Transform _playerTransform;
 
+	private SpriteRenderer _spriteRenderer = null;
+
 	private void Awake() {
 		_player = GameObject.FindWithTag(Constants.Tags.Player);
 		_playerTransform = _player.transform;
 		_velocity = Vector2.zero;
+		_spriteRenderer = this.GetComponent<SpriteRenderer>();
 	}
 
 	// Update is called once per frame
@@ -50,6 +53,8 @@ public class PlayerMovement : MonoBehaviour {
 		_velocity = Vector3.Slerp(_velocity, Vector3.zero, 0.5f);
 
 		ClampPlayerPosition();
+
+		AdjustZPosition();
 	}
 
 	private Vector3 GetAccelerationScaled(Vector3 acceleration) {
@@ -63,5 +68,12 @@ public class PlayerMovement : MonoBehaviour {
 		playerPos.x = Mathf.Clamp(playerPos.x, -xBound, xBound);
 		playerPos.y = Mathf.Clamp(playerPos.y, -yBound, yBound);
 		_playerTransform.position = playerPos;
+	}
+
+	// Special hacky function to position Player in front of or behind the HomeBase...
+	private void AdjustZPosition() {
+		Vector3 playerPos = _playerTransform.position;
+		// This is a magic number for the bottom of the HomeBase sprites...
+		_spriteRenderer.sortingOrder = (playerPos.y < -0.33f) ? 2 : 0;
 	}
 }
