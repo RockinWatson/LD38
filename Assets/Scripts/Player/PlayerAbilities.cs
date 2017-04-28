@@ -11,11 +11,11 @@ public class PlayerAbilities : MonoBehaviour {
 	};
 	private MushmenType _selectedMushmenType = MushmenType.BLOCKER;
 
-	private const KeyCode KEY_SPAWN_BUDDIES = KeyCode.Space;
-	private const KeyCode KEY_SELECT_BLOCKER = KeyCode.Alpha1;
-	private const KeyCode KEY_SELECT_WALKER = KeyCode.Alpha2;
-	private const KeyCode KEY_SELECT_BOMB = KeyCode.Alpha4;
-	private const KeyCode KEY_SELECT_ROCKET = KeyCode.Alpha3;
+	private bool KEY_SPAWN_BUDDIES() { return (Input.GetKeyDown(KeyCode.Space)); }
+	private bool KEY_SELECT_BLOCKER() { return (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1)); }
+	private bool KEY_SELECT_WALKER() { return (Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Keypad2)); }
+	private bool KEY_SELECT_BOMB() { return (Input.GetKeyDown(KeyCode.Alpha4) || Input.GetKeyDown(KeyCode.Keypad4)); }
+	private bool KEY_SELECT_ROCKET() { return (Input.GetKeyDown(KeyCode.Alpha3) || Input.GetKeyDown(KeyCode.Keypad3)); }
 
 	// Mushmen Costs
 	[SerializeField]
@@ -52,24 +52,24 @@ public class PlayerAbilities : MonoBehaviour {
 	private void UpdatePlayerAbilities() {
 		bool selectionMade = false;
 
-		if(Input.GetKeyDown(KEY_SELECT_BLOCKER)) {
+		if(KEY_SELECT_BLOCKER()) {
 			_selectedMushmenType = MushmenType.BLOCKER;
 			selectionMade = true;
 		}
-		if(Input.GetKeyDown(KEY_SELECT_WALKER)) {
+		if(KEY_SELECT_WALKER()) {
 			_selectedMushmenType = MushmenType.WALKER;
 			selectionMade = true;
 		}
-		if(Input.GetKeyDown(KEY_SELECT_BOMB)) {
+		if(KEY_SELECT_BOMB()) {
 			_selectedMushmenType = MushmenType.BOMB;
 			selectionMade = true;
 		}
-		if(Input.GetKeyDown(KEY_SELECT_ROCKET)) {
+		if(KEY_SELECT_ROCKET()) {
 			_selectedMushmenType = MushmenType.ROCKET;
 			selectionMade = true;
 		}
 
-		if(selectionMade || Input.GetKeyDown(KEY_SPAWN_BUDDIES)) {
+		if(selectionMade || KEY_SPAWN_BUDDIES()) {
 			TrySpawn(_selectedMushmenType);
 		}
 	}
