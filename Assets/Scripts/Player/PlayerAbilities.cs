@@ -14,8 +14,8 @@ public class PlayerAbilities : MonoBehaviour {
 	private const KeyCode KEY_SPAWN_BUDDIES = KeyCode.Space;
 	private const KeyCode KEY_SELECT_BLOCKER = KeyCode.Alpha1;
 	private const KeyCode KEY_SELECT_WALKER = KeyCode.Alpha2;
-	private const KeyCode KEY_SELECT_BOMB = KeyCode.Alpha3;
-	private const KeyCode KEY_SELECT_ROCKET = KeyCode.Alpha4;
+	private const KeyCode KEY_SELECT_BOMB = KeyCode.Alpha4;
+	private const KeyCode KEY_SELECT_ROCKET = KeyCode.Alpha3;
 
 	// Mushmen Costs
 	[SerializeField]
