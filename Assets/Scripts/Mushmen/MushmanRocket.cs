@@ -88,11 +88,18 @@ public class MushmanRocket : MushmanBase {
 			_speed += (_speedRamp * Time.fixedDeltaTime);
 
 			// Rotate to target...
-			Vector2 rocketDir = (this.transform.right * Time.fixedDeltaTime * _rotateRocketSpeed);
+			Vector2 rocketDir = (GetForward() * Time.fixedDeltaTime * _rotateRocketSpeed);
 			_rigidBody.velocity += rocketDir;
 			float angle = Mathf.Atan2(dirToTarget.y, dirToTarget.x) * Mathf.Rad2Deg;
 		 	Quaternion q = Quaternion.AngleAxis(angle, Vector3.forward);
 		 	this.transform.rotation = Quaternion.Slerp(transform.rotation, q, Time.fixedDeltaTime * _rotateSpeed);
+		} else {
+			// If we have no target, just move forward...
+			_rigidBody.velocity = (GetForward() * Time.fixedDeltaTime * _speed);
 		}
+	}
+
+	private Vector3 GetForward() {
+		return this.transform.right;
 	}
 }
