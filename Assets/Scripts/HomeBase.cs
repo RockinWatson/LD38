@@ -35,6 +35,9 @@ public class HomeBase : MonoBehaviour {
 	[SerializeField]
 	private Transform _endingKabloeeyAnchor = null;
 
+	[SerializeField]
+	private SpriteRenderer _topBarVisual = null;
+
 	private enum HomeBaseState {
 		NORMAL = 0,
 		WIN = 1,
@@ -146,6 +149,15 @@ public class HomeBase : MonoBehaviour {
 		int seconds = Mathf.FloorToInt(_timer - minutes * 60);
 		string niceTime = string.Format("Preheat: {0:0}:{1:00}", minutes, seconds);
 		_timerText.text = niceTime;
+
+		UpdateForceVisual();
+	}
+
+	private void UpdateForceVisual() {
+		float maxVisualResource = 600.0f;
+		float xScale = Mathf.Min(_resource / maxVisualResource, 1.0f);
+		Vector3 scale = new Vector3(xScale, 1.0f, 1.0f);
+		_topBarVisual.transform.localScale = scale;
 	}
 
 	private void Timer()
