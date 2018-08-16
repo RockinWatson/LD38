@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: 541c3105ff2f29e40ade96b0d181620b
-timeCreated: 1492995861
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: pizzaworld_000
@@ -64,7 +62,8 @@ TextureImporter:
     21300114: pizzaworld_057
     21300116: pizzaworld_058
     21300118: pizzaworld_059
-  serializedVersion: 4
+  externalObjects: {}
+  serializedVersion: 7
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -72,6 +71,8 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -80,6 +81,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -87,10 +90,13 @@ TextureImporter:
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -1
-    wrapMode: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -99,33 +105,41 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 8192
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Standalone
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
     maxTextureSize: 8192
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -141,7 +155,14 @@ TextureImporter:
       pivot: {x: 0.50126904, y: 0.5012547}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_001
       rect:
@@ -154,7 +175,14 @@ TextureImporter:
       pivot: {x: 0.49936467, y: 0.49811083}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_002
       rect:
@@ -167,7 +195,14 @@ TextureImporter:
       pivot: {x: 0.49808916, y: 0.50565326}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_003
       rect:
@@ -180,7 +215,14 @@ TextureImporter:
       pivot: {x: 0.50634515, y: 0.5056818}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_004
       rect:
@@ -193,7 +235,14 @@ TextureImporter:
       pivot: {x: 0.5148005, y: 0.49810126}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_005
       rect:
@@ -206,7 +255,14 @@ TextureImporter:
       pivot: {x: 0.5050505, y: 0.49937657}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_006
       rect:
@@ -219,7 +275,14 @@ TextureImporter:
       pivot: {x: 0.5068323, y: 0.499375}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_007
       rect:
@@ -232,7 +295,14 @@ TextureImporter:
       pivot: {x: 0.51435703, y: 0.5006345}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_008
       rect:
@@ -245,7 +315,14 @@ TextureImporter:
       pivot: {x: 0.5193508, y: 0.49490446}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_009
       rect:
@@ -258,7 +335,14 @@ TextureImporter:
       pivot: {x: 0.51564455, y: 0.49618804}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_010
       rect:
@@ -271,7 +355,14 @@ TextureImporter:
       pivot: {x: 0.509434, y: 0.5006297}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_011
       rect:
@@ -284,7 +375,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.49748427}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_012
       rect:
@@ -297,7 +395,14 @@ TextureImporter:
       pivot: {x: 0.49750623, y: 0.50503147}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_013
       rect:
@@ -310,7 +415,14 @@ TextureImporter:
       pivot: {x: 0.5081761, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_014
       rect:
@@ -323,7 +435,14 @@ TextureImporter:
       pivot: {x: 0.50253165, y: 0.49364677}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_015
       rect:
@@ -336,7 +455,14 @@ TextureImporter:
       pivot: {x: 0.4924812, y: 0.48650387}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_016
       rect:
@@ -349,7 +475,14 @@ TextureImporter:
       pivot: {x: 0.49625936, y: 0.49245283}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_017
       rect:
@@ -362,7 +495,14 @@ TextureImporter:
       pivot: {x: 0.49625936, y: 0.48942786}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_018
       rect:
@@ -375,7 +515,14 @@ TextureImporter:
       pivot: {x: 0.50062424, y: 0.4881841}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_019
       rect:
@@ -388,7 +535,14 @@ TextureImporter:
       pivot: {x: 0.49362245, y: 0.48122653}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_020
       rect:
@@ -401,7 +555,14 @@ TextureImporter:
       pivot: {x: 0.4916986, y: 0.4826518}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_021
       rect:
@@ -414,7 +575,14 @@ TextureImporter:
       pivot: {x: 0.49432534, y: 0.48630136}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_022
       rect:
@@ -427,7 +595,14 @@ TextureImporter:
       pivot: {x: 0.49811321, y: 0.48865068}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_023
       rect:
@@ -440,7 +615,14 @@ TextureImporter:
       pivot: {x: 0.50126904, y: 0.498125}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_024
       rect:
@@ -453,7 +635,14 @@ TextureImporter:
       pivot: {x: 0.49937108, y: 0.50438595}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_025
       rect:
@@ -466,7 +655,14 @@ TextureImporter:
       pivot: {x: 0.50189155, y: 0.5006281}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_026
       rect:
@@ -479,7 +675,14 @@ TextureImporter:
       pivot: {x: 0.5025707, y: 0.49749687}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_027
       rect:
@@ -492,7 +695,14 @@ TextureImporter:
       pivot: {x: 0.49363866, y: 0.49495587}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_028
       rect:
@@ -505,7 +715,14 @@ TextureImporter:
       pivot: {x: 0.49044585, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_029
       rect:
@@ -518,7 +735,14 @@ TextureImporter:
       pivot: {x: 0.48586118, y: 0.5031645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_030
       rect:
@@ -531,7 +755,14 @@ TextureImporter:
       pivot: {x: 0.4917617, y: 0.50250316}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_031
       rect:
@@ -544,7 +775,14 @@ TextureImporter:
       pivot: {x: 0.49375, y: 0.50496894}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_032
       rect:
@@ -557,7 +795,14 @@ TextureImporter:
       pivot: {x: 0.489441, y: 0.50062346}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_033
       rect:
@@ -570,7 +815,14 @@ TextureImporter:
       pivot: {x: 0.48877805, y: 0.50188917}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_034
       rect:
@@ -583,7 +835,14 @@ TextureImporter:
       pivot: {x: 0.48439452, y: 0.50126743}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_035
       rect:
@@ -596,7 +855,14 @@ TextureImporter:
       pivot: {x: 0.48055208, y: 0.5031726}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_036
       rect:
@@ -609,7 +875,14 @@ TextureImporter:
       pivot: {x: 0.47945204, y: 0.51016515}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_037
       rect:
@@ -622,7 +895,14 @@ TextureImporter:
       pivot: {x: 0.48564294, y: 0.5095178}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_038
       rect:
@@ -635,7 +915,14 @@ TextureImporter:
       pivot: {x: 0.48802018, y: 0.5063371}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_039
       rect:
@@ -648,7 +935,14 @@ TextureImporter:
       pivot: {x: 0.49244332, y: 0.49811083}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_040
       rect:
@@ -661,7 +955,14 @@ TextureImporter:
       pivot: {x: 0.49313357, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_041
       rect:
@@ -674,7 +975,14 @@ TextureImporter:
       pivot: {x: 0.50062734, y: 0.49747792}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_042
       rect:
@@ -687,7 +995,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.49747792}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_043
       rect:
@@ -700,7 +1015,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5006329}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_044
       rect:
@@ -713,7 +1035,14 @@ TextureImporter:
       pivot: {x: 0.49749374, y: 0.4955471}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_045
       rect:
@@ -726,7 +1055,14 @@ TextureImporter:
       pivot: {x: 0.49433962, y: 0.49743262}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_046
       rect:
@@ -739,7 +1075,14 @@ TextureImporter:
       pivot: {x: 0.49560854, y: 0.50512165}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_047
       rect:
@@ -752,7 +1095,14 @@ TextureImporter:
       pivot: {x: 0.49622166, y: 0.50635326}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_048
       rect:
@@ -765,7 +1115,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5114943}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_049
       rect:
@@ -778,7 +1135,14 @@ TextureImporter:
       pivot: {x: 0.5006321, y: 0.51474357}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_050
       rect:
@@ -791,7 +1155,14 @@ TextureImporter:
       pivot: {x: 0.50373137, y: 0.5082908}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_051
       rect:
@@ -804,7 +1175,14 @@ TextureImporter:
       pivot: {x: 0.5031056, y: 0.50880504}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_052
       rect:
@@ -817,7 +1195,14 @@ TextureImporter:
       pivot: {x: 0.5030979, y: 0.5087173}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_053
       rect:
@@ -830,7 +1215,14 @@ TextureImporter:
       pivot: {x: 0.4993789, y: 0.50932837}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_054
       rect:
@@ -843,7 +1235,14 @@ TextureImporter:
       pivot: {x: 0.5012531, y: 0.5093516}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_055
       rect:
@@ -856,7 +1255,14 @@ TextureImporter:
       pivot: {x: 0.50126904, y: 0.5149068}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_056
       rect:
@@ -869,7 +1275,14 @@ TextureImporter:
       pivot: {x: 0.5025381, y: 0.52057356}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_057
       rect:
@@ -882,7 +1295,14 @@ TextureImporter:
       pivot: {x: 0.5083014, y: 0.519375}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_058
       rect:
@@ -895,7 +1315,14 @@ TextureImporter:
       pivot: {x: 0.5031686, y: 0.5162297}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pizzaworld_059
       rect:
@@ -908,9 +1335,25 @@ TextureImporter:
       pivot: {x: 0.5044025, y: 0.518125}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

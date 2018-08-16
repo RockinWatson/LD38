@@ -5,8 +5,9 @@ using Assets.Scripts;
 public class PlayerSpawner : MonoBehaviour {
 
 	private const KeyCode KEY_SPAWN_PLAYER = KeyCode.Alpha5;
+    private bool KEY_MOVE_RIGHT() { return (Input.GetKeyDown(KeyCode.JoystickButton0)); }
 
-	[SerializeField]
+    [SerializeField]
 	private float PLAYER_SPAWN_COST = 50.0f;
 	[SerializeField]
 	private GameObject _playerPrefab = null;
@@ -19,7 +20,7 @@ public class PlayerSpawner : MonoBehaviour {
 
 	// Update is called once per frame
 	private void Update () {
-		if(Input.GetKeyDown(KEY_SPAWN_PLAYER) && _homeBase.HasEnoughResource(PLAYER_SPAWN_COST) && IsPlayerDead()) {
+		if((Input.GetKeyDown(KEY_SPAWN_PLAYER) || KEY_MOVE_RIGHT()) && _homeBase.HasEnoughResource(PLAYER_SPAWN_COST) && IsPlayerDead()) {
 			SpawnPlayer();
 		}
 	}

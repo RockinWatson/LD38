@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: 50f0efd6cd882fe41ad6a5c039e9999d
-timeCreated: 1492996455
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: eyebrows_000
@@ -94,7 +92,8 @@ TextureImporter:
     21300174: pupils_012
     21300176: pupils_013
     21300178: pupils_014
-  serializedVersion: 4
+  externalObjects: {}
+  serializedVersion: 7
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -102,6 +101,8 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -110,6 +111,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -117,10 +120,13 @@ TextureImporter:
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -1
-    wrapMode: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -129,25 +135,30 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -163,7 +174,14 @@ TextureImporter:
       pivot: {x: 0.49829933, y: 0.50961536}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: eyebrows_001
       rect:
@@ -176,7 +194,14 @@ TextureImporter:
       pivot: {x: 0.49828768, y: 0.5294118}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: eyebrows_002
       rect:
@@ -189,7 +214,14 @@ TextureImporter:
       pivot: {x: 0.49828768, y: 0.51960784}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: eyebrows_003
       rect:
@@ -202,7 +234,14 @@ TextureImporter:
       pivot: {x: 0.49828768, y: 0.5113636}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: eyebrows_004
       rect:
@@ -215,7 +254,14 @@ TextureImporter:
       pivot: {x: 0.49828768, y: 0.5301205}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: eyebrows_005
       rect:
@@ -228,7 +274,14 @@ TextureImporter:
       pivot: {x: 0.49828768, y: 0.5316456}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: eyebrows_006
       rect:
@@ -241,7 +294,14 @@ TextureImporter:
       pivot: {x: 0.5017007, y: 0.5421687}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: eyebrows_007
       rect:
@@ -254,7 +314,14 @@ TextureImporter:
       pivot: {x: 0.5017007, y: 0.5301205}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: eyebrows_008
       rect:
@@ -267,7 +334,14 @@ TextureImporter:
       pivot: {x: 0.5017007, y: 0.53488374}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: eyebrows_009
       rect:
@@ -280,7 +354,14 @@ TextureImporter:
       pivot: {x: 0.5017007, y: 0.5268817}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: eyebrows_010
       rect:
@@ -293,7 +374,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5346535}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: eyebrows_011
       rect:
@@ -306,7 +394,14 @@ TextureImporter:
       pivot: {x: 0.5017123, y: 0.52427185}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: eyebrows_012
       rect:
@@ -319,7 +414,14 @@ TextureImporter:
       pivot: {x: 0.49829933, y: 0.5185185}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: eyebrows_013
       rect:
@@ -332,7 +434,14 @@ TextureImporter:
       pivot: {x: 0.49658704, y: 0.5090909}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: eyebrows_014
       rect:
@@ -345,7 +454,14 @@ TextureImporter:
       pivot: {x: 0.5017123, y: 0.5090909}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: hat_000
       rect:
@@ -358,7 +474,14 @@ TextureImporter:
       pivot: {x: 0.49025974, y: 0.5138122}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: hat_001
       rect:
@@ -371,7 +494,14 @@ TextureImporter:
       pivot: {x: 0.5074468, y: 0.5224719}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: hat_002
       rect:
@@ -384,7 +514,14 @@ TextureImporter:
       pivot: {x: 0.50817996, y: 0.510989}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: hat_003
       rect:
@@ -397,7 +534,14 @@ TextureImporter:
       pivot: {x: 0.49487704, y: 0.5138122}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: hat_004
       rect:
@@ -410,7 +554,14 @@ TextureImporter:
       pivot: {x: 0.49594322, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: hat_005
       rect:
@@ -423,7 +574,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5027027}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: hat_006
       rect:
@@ -436,7 +594,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: hat_007
       rect:
@@ -449,7 +614,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: hat_008
       rect:
@@ -462,7 +634,14 @@ TextureImporter:
       pivot: {x: 0.49594322, y: 0.4918033}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: hat_009
       rect:
@@ -475,7 +654,14 @@ TextureImporter:
       pivot: {x: 0.49077868, y: 0.4918033}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: hat_010
       rect:
@@ -488,7 +674,14 @@ TextureImporter:
       pivot: {x: 0.4865145, y: 0.4972973}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: hat_011
       rect:
@@ -501,7 +694,14 @@ TextureImporter:
       pivot: {x: 0.49175256, y: 0.4918033}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: hat_012
       rect:
@@ -514,7 +714,14 @@ TextureImporter:
       pivot: {x: 0.4832285, y: 0.48618785}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: hat_013
       rect:
@@ -527,7 +734,14 @@ TextureImporter:
       pivot: {x: 0.49383983, y: 0.5054348}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: hat_014
       rect:
@@ -540,7 +754,14 @@ TextureImporter:
       pivot: {x: 0.5020877, y: 0.5081967}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthbottom_000
       rect:
@@ -553,7 +774,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.40163934}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthbottom_001
       rect:
@@ -566,7 +794,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.4051724}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthbottom_002
       rect:
@@ -579,7 +814,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.35964912}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthbottom_003
       rect:
@@ -592,7 +834,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.3425926}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthbottom_004
       rect:
@@ -605,7 +854,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.29807693}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthbottom_005
       rect:
@@ -618,7 +874,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.30392158}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthbottom_006
       rect:
@@ -631,7 +894,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.3181818}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthbottom_007
       rect:
@@ -644,7 +914,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.32456142}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthbottom_008
       rect:
@@ -657,7 +934,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.3984375}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthbottom_009
       rect:
@@ -670,7 +954,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.47916666}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthbottom_010
       rect:
@@ -683,7 +974,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5703125}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthbottom_011
       rect:
@@ -696,7 +994,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.62096775}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthbottom_012
       rect:
@@ -709,7 +1014,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.6111111}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthbottom_013
       rect:
@@ -722,7 +1034,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5769231}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthbottom_014
       rect:
@@ -735,7 +1054,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthtop_000
       rect:
@@ -748,7 +1074,14 @@ TextureImporter:
       pivot: {x: 0.49800798, y: 0.48305085}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthtop_001
       rect:
@@ -761,7 +1094,14 @@ TextureImporter:
       pivot: {x: 0.5060241, y: 0.49579832}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthtop_002
       rect:
@@ -774,7 +1114,14 @@ TextureImporter:
       pivot: {x: 0.49402392, y: 0.5081967}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthtop_003
       rect:
@@ -787,7 +1134,14 @@ TextureImporter:
       pivot: {x: 0.48790324, y: 0.53846157}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthtop_004
       rect:
@@ -800,7 +1154,14 @@ TextureImporter:
       pivot: {x: 0.5019763, y: 0.515873}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthtop_005
       rect:
@@ -813,7 +1174,14 @@ TextureImporter:
       pivot: {x: 0.51004016, y: 0.4649123}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthtop_006
       rect:
@@ -826,7 +1194,14 @@ TextureImporter:
       pivot: {x: 0.5059761, y: 0.47933885}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthtop_007
       rect:
@@ -839,7 +1214,14 @@ TextureImporter:
       pivot: {x: 0.508, y: 0.4814815}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthtop_008
       rect:
@@ -852,7 +1234,14 @@ TextureImporter:
       pivot: {x: 0.49800798, y: 0.4957265}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthtop_009
       rect:
@@ -865,7 +1254,14 @@ TextureImporter:
       pivot: {x: 0.5121951, y: 0.509434}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthtop_010
       rect:
@@ -878,7 +1274,14 @@ TextureImporter:
       pivot: {x: 0.51209676, y: 0.48076922}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthtop_011
       rect:
@@ -891,7 +1294,14 @@ TextureImporter:
       pivot: {x: 0.51209676, y: 0.47959185}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthtop_012
       rect:
@@ -904,7 +1314,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.47115386}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthtop_013
       rect:
@@ -917,7 +1334,14 @@ TextureImporter:
       pivot: {x: 0.5020408, y: 0.47619048}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouthtop_014
       rect:
@@ -930,7 +1354,14 @@ TextureImporter:
       pivot: {x: 0.50406504, y: 0.46846846}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pits_000
       rect:
@@ -943,7 +1374,14 @@ TextureImporter:
       pivot: {x: 0.496337, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pits_001
       rect:
@@ -956,7 +1394,14 @@ TextureImporter:
       pivot: {x: 0.49817517, y: 0.49514562}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pits_002
       rect:
@@ -969,7 +1414,14 @@ TextureImporter:
       pivot: {x: 0.49541286, y: 0.47474748}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pits_003
       rect:
@@ -982,7 +1434,14 @@ TextureImporter:
       pivot: {x: 0.49725777, y: 0.44680852}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pits_004
       rect:
@@ -995,7 +1454,14 @@ TextureImporter:
       pivot: {x: 0.49541286, y: 0.4408602}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pits_005
       rect:
@@ -1008,7 +1474,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.44680852}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pits_006
       rect:
@@ -1021,7 +1494,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.45833334}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pits_007
       rect:
@@ -1034,7 +1514,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.48}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pits_008
       rect:
@@ -1047,7 +1534,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.45833334}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pits_009
       rect:
@@ -1060,7 +1554,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.48514852}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pits_010
       rect:
@@ -1073,7 +1574,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pits_011
       rect:
@@ -1086,7 +1594,14 @@ TextureImporter:
       pivot: {x: 0.49817517, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pits_012
       rect:
@@ -1099,7 +1614,14 @@ TextureImporter:
       pivot: {x: 0.49817517, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pits_013
       rect:
@@ -1112,7 +1634,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pits_014
       rect:
@@ -1125,7 +1654,14 @@ TextureImporter:
       pivot: {x: 0.49725777, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pupils_000
       rect:
@@ -1138,7 +1674,14 @@ TextureImporter:
       pivot: {x: 0.5729167, y: 1.6851852}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pupils_001
       rect:
@@ -1151,7 +1694,14 @@ TextureImporter:
       pivot: {x: 0.5427632, y: 0.890625}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pupils_002
       rect:
@@ -1164,7 +1714,14 @@ TextureImporter:
       pivot: {x: 0.5188679, y: 0.29166666}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pupils_003
       rect:
@@ -1177,7 +1734,14 @@ TextureImporter:
       pivot: {x: 0.5, y: -0.16666667}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pupils_004
       rect:
@@ -1190,7 +1754,14 @@ TextureImporter:
       pivot: {x: 0.5104167, y: -0.20833333}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pupils_005
       rect:
@@ -1203,7 +1774,14 @@ TextureImporter:
       pivot: {x: 0.52916664, y: -0.22058824}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pupils_006
       rect:
@@ -1216,7 +1794,14 @@ TextureImporter:
       pivot: {x: 0.5572917, y: -0.24193548}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pupils_007
       rect:
@@ -1229,7 +1814,14 @@ TextureImporter:
       pivot: {x: 0.5914634, y: -0.29310346}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pupils_008
       rect:
@@ -1242,7 +1834,14 @@ TextureImporter:
       pivot: {x: 0.60119045, y: -0.3275862}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pupils_009
       rect:
@@ -1255,7 +1854,14 @@ TextureImporter:
       pivot: {x: 0.622093, y: -0.375}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pupils_010
       rect:
@@ -1268,7 +1874,14 @@ TextureImporter:
       pivot: {x: 0.6348315, y: -0.36206895}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pupils_011
       rect:
@@ -1281,7 +1894,14 @@ TextureImporter:
       pivot: {x: 0.62371135, y: -0.125}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pupils_012
       rect:
@@ -1294,7 +1914,14 @@ TextureImporter:
       pivot: {x: 0.61009175, y: 0.30357143}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pupils_013
       rect:
@@ -1307,7 +1934,14 @@ TextureImporter:
       pivot: {x: 0.59583336, y: 0.73214287}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: pupils_014
       rect:
@@ -1320,9 +1954,25 @@ TextureImporter:
       pivot: {x: 0.5871212, y: 1.1607143}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -7,6 +7,9 @@ public class PlayerMovement : MonoBehaviour {
 	private bool KEY_MOVE_DOWN() { return (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)); }
 	private bool KEY_MOVE_RIGHT() { return (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)); }
 
+    private float JOYSTICK_LEFT_RIGHT() { return (Input.GetAxis("Horizontal")); }
+    private float JOYSTICK_UP_DOWN() { return (Input.GetAxis("Vertical")); }
+
 	private const float ACCELERATION_SCALE = 1.5f;
 
 	private Vector3 _acceleration = Vector2.zero;
@@ -31,17 +34,17 @@ public class PlayerMovement : MonoBehaviour {
 	}
 
 	private void UpdatePlayerMovement() {
-		if(KEY_MOVE_UP()) {
+		if(KEY_MOVE_UP() || JOYSTICK_UP_DOWN() > 0.0f) {
 			_acceleration += GetAccelerationScaled(Vector3.up);
 		}
-		if(KEY_MOVE_DOWN()) {
+		if(KEY_MOVE_DOWN() || JOYSTICK_UP_DOWN() < 0.0f) {
 			_acceleration += GetAccelerationScaled(Vector3.down);
 		}
-		if(KEY_MOVE_LEFT()) {
+		if(KEY_MOVE_LEFT() || JOYSTICK_LEFT_RIGHT() < 0.0f) {
 			_acceleration += GetAccelerationScaled(Vector3.left);
 			_playerTransform.localScale = _spriteLeft;
 		}
-		if(KEY_MOVE_RIGHT()) {
+		if(KEY_MOVE_RIGHT() || JOYSTICK_LEFT_RIGHT() > 0.0f) {
 			_acceleration += GetAccelerationScaled(Vector3.right);
 			_playerTransform.localScale = _spriteRight;
 		}

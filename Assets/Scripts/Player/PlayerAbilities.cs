@@ -11,14 +11,14 @@ public class PlayerAbilities : MonoBehaviour {
 	};
 	private MushmenType _selectedMushmenType = MushmenType.BLOCKER;
 
-	private bool KEY_SPAWN_BUDDIES() { return (Input.GetKeyDown(KeyCode.Space)); }
-	private bool KEY_SELECT_BLOCKER() { return (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1)); }
-	private bool KEY_SELECT_WALKER() { return (Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Keypad2)); }
-	private bool KEY_SELECT_BOMB() { return (Input.GetKeyDown(KeyCode.Alpha4) || Input.GetKeyDown(KeyCode.Keypad4)); }
-	private bool KEY_SELECT_ROCKET() { return (Input.GetKeyDown(KeyCode.Alpha3) || Input.GetKeyDown(KeyCode.Keypad3)); }
+	//private bool KEY_SPAWN_BUDDIES() { return (Input.GetKeyDown(KeyCode.Space)); }
+	private bool KEY_SELECT_BLOCKER() { return (Input.GetKeyDown(KeyCode.Alpha1)) || (Input.GetKeyDown(KeyCode.JoystickButton1)); }
+	private bool KEY_SELECT_WALKER() { return (Input.GetKeyDown(KeyCode.Alpha2)) || (Input.GetKeyDown(KeyCode.JoystickButton2)); }
+	private bool KEY_SELECT_BOMB() { return (Input.GetKeyDown(KeyCode.Alpha4)) || (Input.GetKeyDown(KeyCode.JoystickButton6)); }
+	private bool KEY_SELECT_ROCKET() { return (Input.GetKeyDown(KeyCode.Alpha3)) || (Input.GetKeyDown(KeyCode.JoystickButton7)); }
 
-	// Mushmen Costs
-	[SerializeField]
+    // Mushmen Costs
+    [SerializeField]
 	private float BLOCKER_COST = 10.0f;
 	[SerializeField]
 	private GameObject BlockerPrefab = null;
@@ -69,10 +69,11 @@ public class PlayerAbilities : MonoBehaviour {
 			selectionMade = true;
 		}
 
-		if(selectionMade || KEY_SPAWN_BUDDIES()) {
-			TrySpawn(_selectedMushmenType);
-		}
-	}
+        if (selectionMade)
+        {
+            TrySpawn(_selectedMushmenType);
+        }
+    }
 
 	private float GetMushmenCost(MushmenType type) {
 		switch(type) {
