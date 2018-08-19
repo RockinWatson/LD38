@@ -25,6 +25,7 @@
             public const string Winner1 = "Winner1";
             public const string Winner2 = "Winner2";
             public const string GameScene = "TestScene1";
+            public const string CheateSheet = "CheatSheet";
 
             public enum SceneType {
               INSTRUCTIONS = 0,

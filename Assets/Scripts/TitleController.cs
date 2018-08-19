@@ -24,10 +24,16 @@ namespace Assets.Scripts
             if (SPACE_UP() || _dbutton())
             {
                 //Title_Audio();
-                SceneManager.LoadScene(Constants.Scenes.InstructionsScene);
+                //SceneManager.LoadScene(Constants.Scenes.InstructionsScene);
                 if (_scene.name == Constants.Scenes.TitleScene)
+                {
                     SceneManager.LoadScene(Constants.Scenes.InstructionsScene);
+                }
                 else if (_scene.name == Constants.Scenes.InstructionsScene)
+                {
+                    SceneManager.LoadScene(Constants.Scenes.CheateSheet);
+                }
+                else if (_scene.name == Constants.Scenes.CheateSheet)
                 {
                     SceneManager.LoadScene(Constants.Scenes.GameScene);
                 }
