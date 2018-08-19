@@ -15,6 +15,8 @@ tpsheetFileNames:
 - Assets/codeandweb.com/TaylorArt/Winnerstuffs.tpsheet
 - Assets/codeandweb.com/TaylorArt/WinnerTitle.tpsheet
 - Assets/codeandweb.com/TaylorArt/WinnerWorld.tpsheet
+- Assets/Sparkcadestuff/restart.tpsheet
+- Assets/Sparkcadestuff/start.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 - Assets/codeandweb.com/TaylorArt/bars.png
@@ -30,8 +32,12 @@ textureFileNames:
 - Assets/codeandweb.com/TaylorArt/Winnerstuffs.png
 - Assets/codeandweb.com/TaylorArt/WinnerTitle.png
 - Assets/codeandweb.com/TaylorArt/WinnerWorld.png
+- Assets/Sparkcadestuff/restart.png
+- Assets/Sparkcadestuff/start.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
 - 
 - 
 - 
