@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class FartController : MonoBehaviour {
 
-    private bool fart1() { return (Input.GetKeyDown(KeyCode.Alpha6)); }
-    private bool fart2() { return (Input.GetKeyDown(KeyCode.Alpha7)); }
-    private bool fart3() { return (Input.GetKeyDown(KeyCode.Alpha8)); }
+    private bool fart1() { return (Input.GetKeyDown(KeyCode.Alpha6) || (Input.GetKeyDown(KeyCode.JoystickButton3))); }
+    private bool fart2() { return (Input.GetKeyDown(KeyCode.Alpha7) || (Input.GetKeyDown(KeyCode.JoystickButton5))); }
+    private bool fart3() { return (Input.GetKeyDown(KeyCode.Alpha8) || (Input.GetKeyDown(KeyCode.JoystickButton4))); }
 
     private float startVolume = .25f;
 

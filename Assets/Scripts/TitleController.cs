@@ -14,13 +14,14 @@ namespace Assets.Scripts
 
 
         private bool SPACE_UP() { return (Input.GetKeyDown(KeyCode.Space)); }
+        private bool _dbutton() { return (Input.GetKeyDown(KeyCode.JoystickButton4)); }
         private Scene _scene;
 
         void Update()
         {
             _scene = SceneManager.GetActiveScene();
 
-            if (SPACE_UP())
+            if (SPACE_UP() || _dbutton())
             {
                 //Title_Audio();
                 SceneManager.LoadScene(Constants.Scenes.InstructionsScene);
